@@ -39,6 +39,11 @@ body {
   bottom: calc(50% - 10rem);
   left: calc(50% - 9rem);
 } */
+
+.arko{
+    background-color: aqua;
+    
+}
 .form{
     height: 20 rem;
     width: 18 rem;
