@@ -22,7 +22,7 @@ body {
 .card{
   height: 25rem;
   width: 45rem;
-  background-color: red;
+  background-color: aqua;
     border: 2px solid black;
   position: absolute;
   bottom: calc(50% - 12.5rem);
