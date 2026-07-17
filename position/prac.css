@@ -1,6 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     height: 100vh;
   border: 2px solid black;
   /* position: relative; */
   background-color: aqua;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.one{
+    height: 25rem;
+    width: 22rem;
+    background-color: rgb(18, 70, 70);
+    border: 2px solid black;
+    justify-content: center;
 }
