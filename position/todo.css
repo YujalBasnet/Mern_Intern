@@ -41,11 +41,12 @@ h1{
     cursor: pointer;
 */
 .title{
-    height: 50px;
-    width: 50px;
+    height: 50vh;
+    width:50vh;
     background-color: aqua;
     text-align: center;
-    color: white;
-    font-size: 2rem;
+    background-color: rgb(18, 70, 70);
+    border: 2px solid black;
     margin-top: 20px;
+    margin-left: 20px;
 }
