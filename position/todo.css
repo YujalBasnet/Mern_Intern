@@ -13,3 +13,9 @@ h1{
     color: white;
     font-size: 3rem;
 }
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
