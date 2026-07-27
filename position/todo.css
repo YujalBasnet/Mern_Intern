@@ -80,6 +80,13 @@ h3{
   cursor: pointer;
   border: none;
 }
+.bttn button{
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
 .title-container {
     display: flex;
     gap: 20px;
