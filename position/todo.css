@@ -44,6 +44,7 @@ h1{
 .title{
     height: 33vh;
     width:50vh;
+    display: flex;
     background-color: aqua;
     text-align: center;
     background-color: rgb(18, 70, 70);
