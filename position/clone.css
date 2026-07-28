@@ -26,3 +26,9 @@ ul{
     cursor: pointer;
     
 }
+.btn1{
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
