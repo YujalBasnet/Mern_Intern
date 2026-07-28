@@ -5,7 +5,7 @@
 }
 .container{
     height:100vh;
-    background-color: rgb(126, 34, 34);
+    background-color: rgb(103, 104, 165);
     display: flex;
     /* align-items: start;
     gap: 2rem; */
@@ -16,7 +16,7 @@ header{
   height: 3rem;
   width:100%;
   
-  background-color: rgb(27, 146, 33);
+  background-color: rgb(238, 241, 238);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,6 +74,13 @@ section{
     font-size: 3rem;
 }
 .paragraph{
+    margin-top: 20px;
     color:white;
 
+}
+.hero-btn{
+    margin-top: 20px;
+}
+.paragraph span {
+    margin-left: 27px;
 }
