@@ -106,3 +106,18 @@ section{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+.stats {
+    width: 100%;
+    border-top: 1px solid #292a40;
+
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+    padding-top: 2rem;
+    margin-top: 5rem;
+}
+
+.stat {
+    text-align: center;
+}
