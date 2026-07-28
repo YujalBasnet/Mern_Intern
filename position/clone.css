@@ -38,3 +38,11 @@ ul{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+.btn1:hover{
+    background-color: rgb(27, 146, 33);
+    color: white;
+}
+.btn2:hover{
+    background-color: rgb(27, 146, 33);
+    color: white;
+}
