@@ -53,3 +53,15 @@ section{
     flex-direction: column;
     align-items: center;
 }
+.student-count{
+    margin-top: 40px;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.student-count:hover{
+    background-color: rgb(51, 41, 202);
+    color: white;
+}
