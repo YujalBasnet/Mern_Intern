@@ -46,3 +46,6 @@ ul{
     background-color: rgb(27, 146, 33);
     color: white;
 }
+section{
+    display:wrap;
+}
