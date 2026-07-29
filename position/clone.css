@@ -224,3 +224,19 @@ margin-bottom: 20px;
 
     color: white;
 }
+.level {
+    position: absolute;
+
+    bottom: 8px;
+    left: 8px;
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    color: white;
+
+    font-size: 0.55rem;
+
+    padding: 4px 7px;
+
+    border-radius: 3px;
+}
