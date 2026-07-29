@@ -139,3 +139,34 @@ cursor: pointer;
 border: 2px solid black;
 border-radius: 0.5rem;
 }
+.featured {
+    background-color: #ffffff;
+    padding: 4rem 8%;
+    color: #17182c;
+}
+
+
+/* Header */
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    margin-bottom: 2rem;
+}
+.featured-header h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.featured-header p {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.featured-header a {
+    color: #17182c;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
