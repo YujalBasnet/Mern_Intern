@@ -170,3 +170,37 @@ border-radius: 0.5rem;
     font-size: 0.8rem;
     text-decoration: none;
 }
+/* =========================
+   COURSE GRID
+========================= */
+
+.course-container {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 1.5rem;
+}
+
+
+/* =========================
+   COURSE CARD
+========================= */
+
+.course-card {
+    background-color: white;
+
+    border: 1px solid #e5e5e5;
+    border-radius: 0.5rem;
+
+    overflow: hidden;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    transition: 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
