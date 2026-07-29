@@ -139,7 +139,7 @@ cursor: pointer;
 border: 2px solid black;
 border-radius: 0.5rem;
 }
-.featured {
+/* .featured {
     background-color: #ffffff;
     padding: 4rem 8%;
     color: #17182c;
@@ -148,17 +148,17 @@ border-radius: 0.5rem;
 
 /* Header */
 
-.featured-header {
+/*.featured-header {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* align-items: flex-end; */
 
-    margin-bottom: 2rem;
-}
+    /* margin-bottom: 2rem;
+}/* */
 
-.featured-header h2 {
+/* .featured-header h2 {
     font-size: 2rem;
-    margin-bottom: 0.5rem;
+    margin-left: 20px;
 }
 
 .featured-header p {
@@ -174,7 +174,7 @@ border-radius: 0.5rem;
 /* =========================
    COURSE GRID
 ========================= */
-
+/* 
 .course-container {
     display: grid;
 
@@ -187,7 +187,7 @@ border-radius: 0.5rem;
 /* =========================
    COURSE CARD
 ========================= */
-
+/* 
 .course-card {
     background-color: white;
 
@@ -204,4 +204,4 @@ border-radius: 0.5rem;
 .course-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}
+}   */
