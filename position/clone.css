@@ -179,7 +179,7 @@ border-radius: 0.5rem;
 /* =========================
    COURSE GRID
 ========================= */
-/* 
+ 
 .course-container {
     display: grid;
 
@@ -192,7 +192,7 @@ border-radius: 0.5rem;
 /* =========================
    COURSE CARD
 ========================= */
-/* 
+
 .course-card {
     background-color: white;
 
@@ -209,4 +209,4 @@ border-radius: 0.5rem;
 .course-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}   */
+}   
