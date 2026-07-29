@@ -145,11 +145,22 @@ margin-bottom: 20px;
     padding: 4rem 8%;
     color: #17182c;
 }
+/* .featured {
+    background-color: #ffffff;
+    padding: 4rem 8%;
+    color: #17182c;
+}
 
 
+/* Header */
 
+/*.featured-header {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-end; */
 
-
+    /* margin-bottom: 2rem;
+}/* */
 
 /* .featured-header h2 {
     font-size: 2rem;
@@ -161,12 +172,10 @@ margin-bottom: 20px;
     font-size: 0.9rem;
 }
 
-.featured-header a {
-    color: #17182c;
-    font-size: 0.8rem;
-    text-decoration: none;
-}
 
+/* =========================
+   COURSE GRID
+========================= */
  
 .course-container {
     display: grid;
