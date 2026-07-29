@@ -139,6 +139,11 @@ cursor: pointer;
 border: 2px solid black;
 border-radius: 0.5rem;
 }
+.arko-container{
+    background-color: #ffffff;
+    padding: 4rem 8%;
+    color: #17182c;
+}
 /* .featured {
     background-color: #ffffff;
     padding: 4rem 8%;
