@@ -146,7 +146,6 @@ margin-bottom: 20px;
     color: #17182c;
 }
 
- 
 .course-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
