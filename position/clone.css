@@ -253,3 +253,13 @@ margin-bottom: 40px;
     justify-content:center;
     gap:18px;
 }
+.trainer-btn{
+    background:#ff4f7b;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
