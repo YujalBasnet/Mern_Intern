@@ -275,3 +275,7 @@ margin-bottom: 40px;
     cursor:pointer;
     transition:.3s;
 }
+.learn-btn:hover{
+    background:#17172f;
+    color:white;
+}
