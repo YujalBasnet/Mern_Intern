@@ -229,3 +229,11 @@ margin-bottom: 40px;
     color: gray;
     font-size: 14px;
 }
+.trainer{
+    padding:90px 20px;
+    background:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
