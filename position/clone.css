@@ -221,4 +221,7 @@ margin-bottom: 40px;
     font-size: 2rem;
     margin-bottom: 18px;
 }
-
+.category-card h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
