@@ -193,3 +193,8 @@ margin-bottom: 40px;
 .category-title{
     margin-bottom: 35px;
 }
+.category-title h2{
+    font-size: 2.3rem;
+    color: #111;
+    margin-bottom: 8px;
+}
