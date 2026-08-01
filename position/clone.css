@@ -207,3 +207,9 @@ margin-bottom: 40px;
     grid-template-columns: repeat(4,1fr);
     gap: 20px;
 }
+.category-card{
+    padding: 30px 20px;
+    border-radius: 15px;
+    transition: .3s;
+    cursor: pointer;
+}
