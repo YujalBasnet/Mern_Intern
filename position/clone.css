@@ -308,3 +308,10 @@ margin-bottom: 40px;
     background:#e43d68;
     transform:translateY(-3px);
 }
+.footer hr{
+    border:none;
+    height:1px;
+    background:#3c3c58;
+    margin:70px auto 25px;
+    width:90%;
+}
