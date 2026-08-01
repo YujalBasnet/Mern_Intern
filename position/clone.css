@@ -202,3 +202,8 @@ margin-bottom: 40px;
     color: gray;
     font-size: 15px;
 }
+.category-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
