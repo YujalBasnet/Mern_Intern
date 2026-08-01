@@ -263,3 +263,7 @@ margin-bottom: 40px;
     cursor:pointer;
     transition:.3s;
 }
+.trainer-btn:hover{
+    background:#e33d69;
+    transform:translateY(-3px);
+}
