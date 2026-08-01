@@ -198,3 +198,7 @@ margin-bottom: 40px;
     color: #111;
     margin-bottom: 8px;
 }
+.category-title p{
+    color: gray;
+    font-size: 15px;
+}
