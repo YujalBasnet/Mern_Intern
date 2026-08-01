@@ -293,3 +293,14 @@ margin-bottom: 40px;
     color:#c9c9d4;
     line-height:1.8;
 }
+.footer-btn{
+    margin-top:35px;
+    background:#ff4f7b;
+    color:white;
+    border:none;
+    padding:16px 36px;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
