@@ -237,3 +237,9 @@ margin-bottom: 40px;
     align-items:center;
     text-align:center;
 }
+.trainer-content h2{
+    font-size:3rem;
+    line-height:1.2;
+    margin-bottom:20px;
+    color:#17172f;
+}
