@@ -267,3 +267,11 @@ margin-bottom: 40px;
     background:#e33d69;
     transform:translateY(-3px);
 }
+.learn-btn{
+    background:white;
+    border:1px solid #ddd;
+    padding:15px 30px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
