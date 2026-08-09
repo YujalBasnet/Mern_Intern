@@ -263,7 +263,9 @@ main {
 ========================= */
 
 .right-side {
-    width: 180px;
+    width: 250px;
+    
+
 }
 
 
@@ -355,12 +357,12 @@ main {
 
 .includes {
     margin-top: 2.5rem;
-
-    font-size: 0.5rem;
+    
+    font-size: 1rem;
 }
 
 .includes h4 {
-    font-size: 0.5rem;
+    font-size: 1rem;
 
     margin-bottom: 0.8rem;
 }
