@@ -1,29 +1,370 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.container{
-    height:100vh;
-    background-color: rgb(255, 255, 255);
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #f7f8fc;
+}
+
+
+/* =========================
+   TOP NAVBAR
+========================= */
+
+header {
+    height: 3rem;
+    width: 100%;
+    background-color: white;
+
     display: flex;
-    flex-direction: column;
+    align-items: center;
+
+    padding: 0 2rem;
+
+    border-bottom: 1px solid #ddd;
 }
-header{
-  padding: 0 2rem;
-  height: 3rem;
-  width:100%;
-  
-  background-color: rgb(238, 241, 238);
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
+
+header h1 {
+    font-size: 1.4rem;
 }
-ul{
+
+header h1 span {
+    color: #ed3d68;
+}
+
+header ul {
     display: flex;
     list-style: none;
-    gap: 2rem;
+
+    gap: 2.5rem;
+
+    margin-left: 13rem;
+
+    font-size: 0.75rem;
+}
+
+header li {
     cursor: pointer;
-    padding:450px;
-    
+}
+
+
+/* =========================
+   MAIN AREA
+========================= */
+
+.main {
+    display: flex;
+    min-height: calc(100vh - 3rem);
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+aside {
+    width: 150px;
+    min-height: calc(100vh - 3rem);
+
+    background-color: #17172d;
+
+    color: white;
+
+    padding: 2rem 0.8rem;
+}
+
+.menu-title {
+    font-size: 0.6rem;
+    color: #9292a5;
+
+    margin-bottom: 0.7rem;
+    margin-left: 0.4rem;
+}
+
+.menu-item {
+    height: 2rem;
+
+    display: flex;
+    align-items: center;
+
+    gap: 0.6rem;
+
+    font-size: 0.65rem;
+
+    padding: 0 0.5rem;
+
+    margin-bottom: 0.25rem;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+}
+
+.menu-item.active {
+    background-color: #e83d69;
+}
+
+.menu-item span {
+    font-size: 0.65rem;
+}
+
+.account {
+    margin-top: 2rem;
+}
+
+
+/* =========================
+   COURSE MAIN CONTENT
+========================= */
+
+main {
+    flex: 1;
+
+    display: flex;
+
+    padding: 2rem 4rem;
+
+    gap: 3rem;
+}
+
+
+/* =========================
+   COURSE CONTENT
+========================= */
+
+.course-content {
+    width: 65%;
+
+    position: relative;
+}
+
+.course-image {
+    width: 100%;
+    height: 230px;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.course-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* DARK OVERLAY */
+
+.course-info {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 230px;
+
+    background: rgba(0, 0, 0, 0.2);
+
+    color: white;
+
+    padding: 0.5rem;
+}
+
+
+/* TAG */
+
+.course-tags {
+    display: flex;
+    align-items: center;
+
+    gap: 3rem;
+
+    font-size: 0.5rem;
+}
+
+.course-tags span {
+    background-color: #eeeeee;
+    color: #222;
+
+    padding: 0.3rem 0.5rem;
+
+    border-radius: 10px;
+}
+
+.course-tags b {
+    color: #222;
+}
+
+
+/* COURSE TITLE */
+
+.course-info h2 {
+    text-align: center;
+
+    margin-top: 3.2rem;
+
+    font-size: 1.5rem;
+
+    line-height: 1.25;
+}
+
+
+/* COURSE DETAILS */
+
+.course-details {
+    position: absolute;
+
+    bottom: 0.4rem;
+    right: 0.5rem;
+
+    font-size: 0.45rem;
+}
+
+
+/* =========================
+   TABS
+========================= */
+
+.tabs {
+    display: flex;
+
+    gap: 2rem;
+
+    margin-top: 0.7rem;
+
+    border-bottom: 1px solid #ddd;
+}
+
+.tab {
+    font-size: 0.6rem;
+
+    padding-bottom: 0.5rem;
+
+    cursor: pointer;
+}
+
+.active-tab {
+    border-bottom: 2px solid #e83d69;
+}
+
+
+/* =========================
+   RIGHT SIDE
+========================= */
+
+.right-side {
+    width: 180px;
+}
+
+
+/* =========================
+   PROGRESS CARD
+========================= */
+
+.progress-card {
+    background-color: white;
+
+    border-radius: 8px;
+
+    padding: 0.6rem 1rem 1rem;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.progress-card h3 {
+    text-align: center;
+
+    font-size: 0.65rem;
+
+    border-top: 2px solid #d83b64;
+
+    padding-top: 0.2rem;
+}
+
+.progress-card p {
+    margin-top: 1rem;
+
+    font-size: 0.55rem;
+}
+
+.progress-card small {
+    font-size: 0.45rem;
+    color: #777;
+}
+
+
+/* PROGRESS BAR */
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+
+    background-color: #ddd;
+
+    margin-top: 0.5rem;
+
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    width: 65%;
+    height: 100%;
+
+    background-color: #d83b64;
+
+    border-radius: 5px;
+}
+
+
+/* BUTTON */
+
+.progress-card button {
+    width: 100%;
+
+    margin-top: 1rem;
+
+    padding: 0.45rem;
+
+    border: none;
+
+    background-color: #d83b64;
+
+    color: white;
+
+    border-radius: 3px;
+
+    font-size: 0.45rem;
+
+    cursor: pointer;
+}
+
+
+/* =========================
+   COURSE INCLUDES
+========================= */
+
+.includes {
+    margin-top: 2.5rem;
+
+    font-size: 0.5rem;
+}
+
+.includes h4 {
+    font-size: 0.5rem;
+
+    margin-bottom: 0.8rem;
+}
+
+.includes p {
+    margin-bottom: 0.6rem;
 }
