@@ -281,6 +281,8 @@ main {
     padding: 0.6rem 1rem 1rem;
 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    /* width: 300px;
+    height: 200px; */
 }
 
 .progress-card h3 {
@@ -296,7 +298,7 @@ main {
 .progress-card p {
     margin-top: 1rem;
 
-    font-size: 0.55rem;
+    font-size: 0.85rem;
 }
 
 .progress-card small {
