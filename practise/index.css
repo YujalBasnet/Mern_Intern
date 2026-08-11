@@ -60,15 +60,10 @@ header li {
     min-height: calc(100vh - 3rem);
 }
 
-
-
-
 aside {
     width: 150px;
     min-height: calc(100vh - 3rem);
-
     background-color: #17172d;
-
     color: white;
     padding: 2rem 0.8rem;
 }
