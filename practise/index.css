@@ -13,19 +13,13 @@ body {
     background-color: #f7f8fc;
 }
 
-
-
-
 header {
     height: 3rem;
     width: 100%;
     background-color: white;
-
     display: flex;
     align-items: center;
-
     padding: 0 2rem;
-
     border-bottom: 1px solid #ddd;
 }
 
