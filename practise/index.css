@@ -331,15 +331,10 @@ main {
 
 .progress-card button {
     width: 100%;
-
     margin-top: 1rem;
-
     padding: 0.45rem;
-
     border: none;
-
     background-color: #d83b64;
-
     color: white;
     border-radius: 3px;
     font-size: 0.75rem;
