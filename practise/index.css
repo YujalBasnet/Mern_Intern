@@ -427,17 +427,13 @@ main {
 
 .feature span {
     color: #777;
-
     font-size: 1rem;
-
     font-weight: bold;
 }
 
 .feature p {
     color: #777;
-
     font-size: 0.85rem;
-
     line-height: 1.2;
 }
 
