@@ -239,19 +239,14 @@ main {
 
 .tabs {
     display: flex;
-
     gap: 2rem;
-
     margin-top: 0.7rem;
-
     border-bottom: 1px solid #ddd;
 }
 
 .tab {
     font-size: 0.7rem;
-
     padding-bottom: 0.5rem;
-
     cursor: pointer;
 }
 
