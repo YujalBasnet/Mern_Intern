@@ -341,16 +341,10 @@ main {
     background-color: #d83b64;
 
     color: white;
-
     border-radius: 3px;
-
     font-size: 0.75rem;
-
     cursor: pointer;
 }
-
-
-
 
 .includes {
     margin-top: 2.5rem;
