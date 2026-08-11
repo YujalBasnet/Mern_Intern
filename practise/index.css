@@ -354,20 +354,17 @@ main {
 
 .includes {
     margin-top: 2.5rem;
-    
     font-size: 1rem;
 }
 
 .includes h4 {
     font-size: 1rem;
-
     margin-bottom: 0.8rem;
 }
 
 .includes p {
     margin-bottom: 0.6rem;
 }
-
 
 .overview {
     margin-top: 1rem;
@@ -376,7 +373,6 @@ main {
 .overview > h2 {
     font-size: 1.25rem;
     font-weight: 500;
-
     margin-bottom: 0.3rem;
 }
 
