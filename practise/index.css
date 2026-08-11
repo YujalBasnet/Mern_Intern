@@ -40,20 +40,14 @@ header h1 span {
 header ul {
     display: flex;
     list-style: none;
-
     gap: 3.5rem;
-
     margin-left: 25.5rem;
-
     font-size: 0.75rem;
 }
 
 header li {
     cursor: pointer;
 }
-
-
-
 
 .main {
     display: flex;
