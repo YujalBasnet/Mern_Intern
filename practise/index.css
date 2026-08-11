@@ -132,20 +132,13 @@ aside {
 
 main {
     flex: 1;
-
     display: flex;
-
     padding: 2rem 4rem;
-
     gap: 3rem;
 }
 
-
-
-
 .course-content {
     width: 65%;
-
     position: relative;
 }
 
