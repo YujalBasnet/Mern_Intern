@@ -526,16 +526,11 @@ main {
 
 .related-image span {
     position: absolute;
-
     bottom: 0;
     left: 0;
-
     background-color: #397e4d;
-
     color: white;
-
     font-size: 0.5rem;
-
     padding: 0.2rem 0.5rem;
 }
 
