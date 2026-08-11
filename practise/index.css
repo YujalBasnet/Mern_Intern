@@ -468,20 +468,14 @@ main {
     padding-left: 0.3rem;
 }
 
-
-
-
 .related-courses {
     margin-top: 2rem;
 }
 
 .related-courses > h3 {
     font-size: 1rem;
-
     font-weight: 500;
-
     margin-bottom: 1.5rem;
-
     text-align: center;
 }
 
