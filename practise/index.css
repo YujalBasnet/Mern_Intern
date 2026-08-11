@@ -558,17 +558,13 @@ main {
 
 .related-bottom {
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     margin-top: 1rem;
 }
 
 .related-bottom p {
     font-size: 0.45rem;
-
     color: #999;
 }
 
