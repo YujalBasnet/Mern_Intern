@@ -222,20 +222,12 @@ main {
     line-height: 1.25;
 }
 
-
-
-
 .course-details {
     position: absolute;
-
     bottom: 0.4rem;
     right: 0.5rem;
-
     font-size: 0.45rem;
 }
-
-
-
 
 .tabs {
     display: flex;
