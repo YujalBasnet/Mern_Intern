@@ -273,28 +273,21 @@ main {
 
 .progress-card {
     background-color: white;
-
     border-radius: 8px;
-
     padding: 0.6rem 1rem 1rem;
-
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     
 }
 
 .progress-card h3 {
     text-align: center;
-
     font-size: 0.75rem;
-
     border-top: 2px solid #d83b64;
-
     padding-top: 0.2rem;
 }
 
 .progress-card p {
     margin-top: 1rem;
-
     font-size: 0.85rem;
 }
 
