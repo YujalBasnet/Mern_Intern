@@ -2,7 +2,7 @@ const btnn = document.querySelector(".btn1");
 const boxx = document.querySelector(".box");
 
 
-btn1.addEventListener("click", () => {
+btnn.addEventListener("click", () => {
     
-  div.style.backgroundColor = "red";
+  boxx.style.display = "block";
 });
