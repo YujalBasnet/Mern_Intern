@@ -28,7 +28,7 @@
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 20px;
-    background-color: #5f2a37;
+    background-color: blue;
     
 }
 #btn3{
@@ -37,7 +37,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    
+    padding: 10px 20px;
+    background-color: green;
 }
 #btn4{
     color: white;
