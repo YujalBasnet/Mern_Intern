@@ -7,3 +7,7 @@ btnn.addEventListener("click", () => {
     
   boxx.style.display = "block";
 });
+
+noo.addEventListener("click", () => {
+    boxx.style.display = "none";
+});
