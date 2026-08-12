@@ -12,7 +12,7 @@
 }
 .btn1 button{
     color: black;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     border: none;
     border-radius: 5px;
     cursor: pointer; 
@@ -21,8 +21,8 @@
 } 
  
 .box {
-    height: 400px;
-    width: 240px;
+    height: 250px;
+    width: 250px;
 
     background-color: #9ed0f3;
 
@@ -65,7 +65,8 @@ h1 {
 button {
     width: 68px;
     height: 52px;
-
+    margin-top:60px;
+    margin-left:31px;
     background-color: transparent;
 
     border-radius: 10px;
