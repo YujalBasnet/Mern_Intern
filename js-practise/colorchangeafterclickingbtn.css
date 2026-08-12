@@ -12,7 +12,6 @@
 }
 
 #btn1 button{
-    
     color: black;
     padding: 10px 20px;
     border: none;
@@ -20,8 +19,8 @@
     cursor: pointer; 
     padding: 10px 20px;
     background-color: #e83d69;
-    
 }
+
 #btn2 button{
     color: white;
     padding: 10px 20px;
@@ -30,8 +29,8 @@
     cursor: pointer;
     padding: 10px 20px;
     background-color: blue;
-    
 }
+
 #btn3 button {
     color: white;
     padding: 10px 20px;
@@ -41,18 +40,19 @@
     padding: 10px 20px;
     background-color: green;
 }
+
 #btn4 button{
-    color: white;
+    color: rgb(8, 8, 8);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     padding: 10px 20px;
     background-color: yellow;
-    
 }
-#btn5{
-    color: white;
+
+#btn5 button{
+    color: rgb(20, 20, 20);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
