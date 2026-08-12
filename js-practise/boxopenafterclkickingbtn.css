@@ -53,9 +53,7 @@ h1 {
 }
 
 .buttons {
-    margin-top: auto;
     margin-bottom: 65px;
-
     display: flex;
     gap: 20px;
 }
