@@ -7,12 +7,10 @@
     min-height: 100vh;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-button{
 
-}
 #btn1 button{
     
     color: black;
@@ -24,7 +22,7 @@ button{
     background-color: #e83d69;
     
 }
-#btn2{
+#btn2 button{
     color: white;
     padding: 10px 20px;
     border: none;
@@ -34,7 +32,7 @@ button{
     background-color: blue;
     
 }
-#btn3{
+#btn3 button {
     color: white;
     padding: 10px 20px;
     border: none;
@@ -43,7 +41,7 @@ button{
     padding: 10px 20px;
     background-color: green;
 }
-#btn4{
+#btn4 button{
     color: white;
     padding: 10px 20px;
     border: none;
