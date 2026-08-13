@@ -7,6 +7,3 @@ closBtn.addEventListener("click", () => {
   closeBtn.style.transform = "translateX(-90%)";
 });
 
-// closeBtn.addEventListener("dblclick", () => {
-//   closeBtn.style.transform = "translateX(-80%)";
-// });
