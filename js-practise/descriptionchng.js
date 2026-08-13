@@ -5,3 +5,10 @@ const J = document.querySelector(".A");
 const one = document.querySelector(".text1");
 const two = document.querySelector(".text2");
 const three = document.querySelector(".text3");
+
+H.addEventListener("click", () => {
+    
+  one.style.display = "block";
+  two.style.display = "none";
+  three.style.display = "none";
+});
