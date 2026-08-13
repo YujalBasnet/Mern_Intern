@@ -4,18 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .container {
-    height: 95vh;
-    width: 90vw;
-
+     height: 100vh; 
+    /* width: 90vw; */
     border: 3px solid red;
-
     display: flex;
 }
