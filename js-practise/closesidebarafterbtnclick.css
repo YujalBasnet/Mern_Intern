@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 .container {
     height: 100vh; 
     border: 3px solid red;
@@ -14,20 +12,15 @@
     align-items: start;
 }
 
-
 .close{
     position: absolute;
     top: 10px;
-    left: 75px;
-    
+    left: 75px;  
     background-color: #e9a3b5;
     color: black;
-
     border: none;
     border-radius: 5px;
-
     padding: 5px 10px;
-
     cursor: pointer; 
     z-index: 10;
     transform: translateX(0);
