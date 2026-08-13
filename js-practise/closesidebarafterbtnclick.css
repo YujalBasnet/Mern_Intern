@@ -30,6 +30,8 @@
 
     cursor: pointer; 
     z-index: 10;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
 }
 
 .bar{
@@ -37,4 +39,6 @@
     width: 20vh;
     background-color: #9ed0f3;
     position: relative;
+    transform: translateX(0);
+    transition: transform 0.5s ease;
 }
