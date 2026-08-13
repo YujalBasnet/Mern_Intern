@@ -72,6 +72,15 @@ nav span {
 
     font-size: 22px;
     font-weight: bold;
+    display: none;
+}
+.text3 {
+    text-align: center;
+    color: #a63db5;
+
+    font-size: 22px;
+    font-weight: bold;
+    display: none;
 }
 
 .text p {
