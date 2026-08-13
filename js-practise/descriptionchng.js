@@ -19,3 +19,8 @@ C.addEventListener("click", () => {
   three.style.display = "none";
 });
 
+J.addEventListener("click", () => {
+  one.style.display = "none";
+  two.style.display = "none";
+  three.style.display = "block";
+});
