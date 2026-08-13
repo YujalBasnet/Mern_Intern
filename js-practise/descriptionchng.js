@@ -12,3 +12,10 @@ H.addEventListener("click", () => {
   two.style.display = "none";
   three.style.display = "none";
 });
+
+C.addEventListener("click", () => {
+  one.style.display = "none";
+  two.style.display = "block";
+  three.style.display = "none";
+});
+
