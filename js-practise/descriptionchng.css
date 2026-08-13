@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-/* body {
-    height: 100vh;
-} */
+
 
 .container {
     height: 100vh;
@@ -17,7 +15,7 @@
     align-items: center;
 }
 
-/* Navigation */
+
 
 nav {
     margin-top: 70px;
@@ -40,7 +38,7 @@ nav span {
 }
 
 
-/* Main Yellow Box */
+
 
 .box {
     width: 70%;
@@ -57,7 +55,7 @@ nav span {
 }
 
 
-/* Text inside box */
+
 
 .text1 {
     text-align: center;
