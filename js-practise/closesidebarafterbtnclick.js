@@ -1,0 +1,1 @@
+const closBtn = document.querySelector(".close");
