@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    height: 100vh;
+} */
+
+.container {
+    height: 100vh;
+    border: 3px solid red;
+    background-color: #9dd2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation */
+
+nav {
+    margin-top: 70px;
+
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+}
+
+nav span {
+    color: red;
+}
+
+
+/* Main Yellow Box */
+
+.box {
+    width: 70%;
+    height: 500px;
+
+    margin-top: 35px;
+
+    background-color: #fff09b;
+    border: 3px solid #a63db5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Text inside box */
+
+.text1 {
+    text-align: center;
+    color: #a63db5;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text2 {
+    text-align: center;
+    color: #a63db5;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text p {
+    margin: 5px 0;
+}
