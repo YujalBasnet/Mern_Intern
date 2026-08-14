@@ -59,6 +59,6 @@ Re.addEventListener("click", function () {
     sec = 0;
     min = 0;
     hrs = 0;
-    D.innerText = "00 : 00 : 00";
+    Di.innerText = "00 : 00 : 00";
 
 });
