@@ -30,12 +30,9 @@
 
 .display {
     color: #9b3bb8;
-
     font-size: 48px;
     font-weight: 500;
-
     letter-spacing: 4px;
-
     font-family: "Comic Sans MS", cursive;
 }
 
@@ -43,7 +40,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
     gap: 50px;
 }
 
