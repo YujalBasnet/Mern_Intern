@@ -7,7 +7,7 @@ const Di = document.querySelector(".display");
 
 let timer = null;
 
-St.addEventListener("click", function () {
+St.addEventListener("click",  ()=> {
 
     if (timer !== null) {
         return;
