@@ -7,7 +7,7 @@ const Di = document.querySelector(".display");
 
 let timer = null;
 
-S.addEventListener("click", function () {
+St.addEventListener("click", function () {
 
     if (timer !== null) {
         return;
@@ -27,7 +27,7 @@ S.addEventListener("click", function () {
             hrs++;
         }
 
-        D.innerText =
+        Di.innerText =
             `${formatTime(hrs)} : ${formatTime(min)} : ${formatTime(sec)}`;
 
     }, 1000);
