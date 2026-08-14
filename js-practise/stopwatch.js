@@ -44,7 +44,7 @@ function formatTime(time) {
     return time;
 }
 
-Pa.addEventListener("click", function () {
+Pa.addEventListener("click",  ()=> {
 
     clearInterval(timer);
 
