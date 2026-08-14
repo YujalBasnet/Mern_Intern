@@ -52,7 +52,7 @@ Pa.addEventListener("click",  ()=> {
 
 });
 
-Re.addEventListener("click", function () {
+Re.addEventListener("click",  ()=> {
 
     clearInterval(timer);
     timer = null;
