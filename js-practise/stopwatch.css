@@ -4,16 +4,11 @@
     box-sizing: border-box;
 }
 
-
-
 .container {
     
     height: 100vh;
-
     background-color: #ffefa0;
-
     border: 3px solid #9b3bb8;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +19,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     gap: 55px;
 }
 
