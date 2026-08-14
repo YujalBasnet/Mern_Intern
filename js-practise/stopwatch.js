@@ -52,7 +52,7 @@ P.addEventListener("click", function () {
 
 });
 
-R.addEventListener("click", function () {
+Re.addEventListener("click", function () {
 
     clearInterval(timer);
     timer = null;
