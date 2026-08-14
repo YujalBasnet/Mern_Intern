@@ -2,8 +2,8 @@ let sec = 0;
 let min = 0;
 let hrs = 0;
 
-const S = document.querySelector(".start");
-const D = document.querySelector(".display");
+const St = document.querySelector(".start");
+const Di = document.querySelector(".display");
 
 let timer = null;
 
