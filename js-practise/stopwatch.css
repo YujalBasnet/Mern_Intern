@@ -61,7 +61,7 @@ button {
 
     cursor: pointer;
 
-    transition: 0.2s ease;
+    transition: 0.1s ease-in-out;
 }
 
 .start {
@@ -77,13 +77,8 @@ button {
 }
 
 button:hover {
-    transform: translateY(-3px);
+    transform: translateY(-6px);
 
     box-shadow: 4px 4px 0 #9b3bb8;
 }
 
-button:active {
-    transform: translateY(0);
-
-    box-shadow: none;
-}
