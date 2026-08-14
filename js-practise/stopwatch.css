@@ -77,8 +77,8 @@ button {
 }
 
 button:hover {
-    transform: translateY(-6px);
+    transform: translateY(-1px);
 
-    box-shadow: 4px 4px 0 #9b3bb8;
+    
 }
 
