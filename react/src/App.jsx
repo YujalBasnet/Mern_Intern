@@ -8,7 +8,7 @@ function App() {
 
         <div class="flex justify-center items-center mt-[20px] py-[10px] px-[20px] ">
             <input class="w-1/2 py-[10px] px-[20px] border-none text-3xl bg-white" type="text" placeholder="Search"></input>
-            <button>Add</button>
+            <button class="border-2 border-black text-3xl cursor-pointer py-[10px] px-[20px] bg-white">Add</button>
         </div>
 
         {/* <!-- Boxes Container --> */}
