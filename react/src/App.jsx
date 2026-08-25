@@ -2,9 +2,9 @@ import React from 'react'
 
 function App() {
   return (
-    <div class="container">
+   <div class="min-h-screen border-2 border-black bg-[#3a1111]">
 
-        <h1>TODO LIST</h1>
+        <h1 class="text-center text-white text-5xl">TODO LIST</h1>
 
         <div class="search">
             <input type="text" placeholder="Search"></input>
