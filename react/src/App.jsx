@@ -6,7 +6,7 @@ function App() {
 
         <h1 class="text-center text-white text-5xl">TODO LIST</h1>
 
-        <div class="search">
+        <div class="flex justify-center items-center mt-[20px] py-[10px] px-[20px] ">
             <input type="text" placeholder="Search"></input>
             <button>Add</button>
         </div>
