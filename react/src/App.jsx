@@ -19,7 +19,7 @@ function App() {
 
                 <h2 class="text-center text-white text-2xl pt-[10px]">Title</h2>
 
-                <h3>Description</h3>
+                <h3 class="text-center text-white text-1xl pt-[15px]">Description</h3>
 
                 <h3>Priority</h3>
 
