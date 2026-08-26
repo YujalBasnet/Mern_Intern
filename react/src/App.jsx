@@ -23,7 +23,7 @@ function App() {
 
                 <h3 class="text-center text-white text-1xl pt-[15px]">Priority</h3>
 
-                <div class="mt-[50px] text-center">
+                <div class="mt-[20px] text-center">
                     <button class="py-[10px] px-[20px] m-[5px] rounded-lg cursor-pointer border-2 border-black hover:bg-white-100" >Submit</button>
                     <button class="py-[10px] px-[20px] m-[5px] rounded-lg cursor-pointer border-2 border-black hover:bg-white-100">Cancel</button>
                 </div>
