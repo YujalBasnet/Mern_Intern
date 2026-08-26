@@ -7,7 +7,7 @@ function App() {
         <h1 class="text-center text-white text-5xl">TODO LIST</h1>
 
         <div class="flex justify-center items-center mt-[20px] py-[10px] px-[20px] ">
-            <input class="w-1/2 py-[10px] px-[20px] border-none text-3xl bg-white" type="text" placeholder="Search"></input>
+            <input class="w-1/2  border-none text-3xl bg-white" type="text" placeholder="Search"></input>
             <button class="border-2 border-black text-3xl cursor-pointer py-[10px] px-[20px] bg-white hover:bg-white-100">Add</button>
         </div>
 
@@ -24,7 +24,7 @@ function App() {
                 <h3 class="text-center text-white text-1xl pt-[15px]">Priority</h3>
 
                 <div class="mt-[50px] text-center">
-                    <button >Submit</button>
+                    <button class="py-[10px] px-[20px] m-[5px] rounded-lg cursor-pointer border-2 border-black hover:bg-white-100" >Submit</button>
                     <button>Cancel</button>
                 </div>
 
