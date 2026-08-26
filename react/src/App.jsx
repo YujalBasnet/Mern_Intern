@@ -24,7 +24,7 @@ function App() {
                 <h3 class="text-center text-white text-1xl pt-[15px]">Priority</h3>
 
                 <div class="mt-[50px] text-center">
-                    <button>Submit</button>
+                    <button >Submit</button>
                     <button>Cancel</button>
                 </div>
 
