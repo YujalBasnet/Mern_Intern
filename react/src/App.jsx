@@ -17,7 +17,7 @@ function App() {
             {/* <!-- First Box --> */}
             <div class="h-[33vh] w-[50vh] border-2 border-black bg-[#124f4f]">
 
-                <h2>Title</h2>
+                <h2 class="text-center text-white text-2xl pt-[10px]">Title</h2>
 
                 <h3>Description</h3>
 
