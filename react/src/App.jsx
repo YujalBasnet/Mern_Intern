@@ -8,7 +8,7 @@ function App() {
 
         <div class="flex justify-center items-center mt-[20px] py-[10px] px-[20px] ">
             <input class="w-1/2  border-none text-3xl bg-white" type="text" placeholder="Search"></input>
-            <button class="border-1 border-black text-2xl cursor-pointer py-[10px] px-[20px] bg-white hover:bg-white-100">Add</button>
+            <button class="border-1 border-black text-2xl cursor-pointer py-[10px] px-[20px] bg-white rounded-lg hover:bg-white-100">Add</button>
         </div>
 
         {/* <!-- Boxes Container --> */}
@@ -31,7 +31,7 @@ function App() {
             </div>
 
             
-            <div class="title2">
+            <div class="h-[33vh] w-[50vh] border-2 border-black bg-[#124f4f]">
                 
             </div>
 
