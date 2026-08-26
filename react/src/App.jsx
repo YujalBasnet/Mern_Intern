@@ -25,7 +25,7 @@ function App() {
 
                 <div class="mt-[50px] text-center">
                     <button class="py-[10px] px-[20px] m-[5px] rounded-lg cursor-pointer border-2 border-black hover:bg-white-100" >Submit</button>
-                    <button>Cancel</button>
+                    <button class="py-[10px] px-[20px] m-[5px] rounded-lg cursor-pointer border-2 border-black hover:bg-white-100">Cancel</button>
                 </div>
 
             </div>
