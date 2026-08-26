@@ -8,14 +8,14 @@ function App() {
 
         <div class="flex justify-center items-center mt-[20px] py-[10px] px-[20px] ">
             <input class="w-1/2 py-[10px] px-[20px] border-none text-3xl bg-white" type="text" placeholder="Search"></input>
-            <button class="border-2 border-black text-3xl cursor-pointer py-[10px] px-[20px] bg-white">Add</button>
+            <button class="border-2 border-black text-3xl cursor-pointer py-[10px] px-[20px] bg-white hover:bg-white-100">Add</button>
         </div>
 
         {/* <!-- Boxes Container --> */}
-        <div class="title-container">
+        <div class="flex gap-[20px] mt-[20px] ml-[20px]">
 
             {/* <!-- First Box --> */}
-            <div class="title">
+            <div class="h-[33vh] w-[50vh] border-2 border-black bg-[#124f4f]">
 
                 <h2>Title</h2>
 
