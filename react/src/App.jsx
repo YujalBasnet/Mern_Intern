@@ -48,8 +48,8 @@ import Register from './Register'
 
 function App() {
   return (
-    <Register />
+    <AuthForm type="register" />
   )
 }
 
-export default App
+export default App;
