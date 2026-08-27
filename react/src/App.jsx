@@ -143,29 +143,6 @@ function App() {
 
         </div>
 
-
-        {/* Role */}
-        <div className="mb-[20px]">
-
-          <label
-            htmlFor="role"
-            className="block font-semibold mb-[7px]"
-          >
-            Register as
-          </label>
-
-          <select
-            id="role"
-            name="role"
-            className="w-full p-[12px] border border-gray-300 rounded-md outline-none focus:border-black"
-          >
-            <option value="client">Client</option>
-            <option value="freelancer">Freelancer</option>
-          </select>
-
-        </div>
-
-
         {/* Register Button */}
         <button
           type="submit"
