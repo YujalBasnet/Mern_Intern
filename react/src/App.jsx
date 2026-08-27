@@ -56,7 +56,7 @@ function App() {
         </h1>
 
         <p className="text-center text-gray-500 mb-[25px]">
-          Register for FreelanceHub
+          Register for Free Job
         </p>
 
 
