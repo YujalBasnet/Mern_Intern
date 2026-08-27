@@ -48,7 +48,7 @@ import Register from './Register'
 
 function App() {
   return (
-    <AuthForm type="register" />
+    <Register type="login" />
   )
 }
 

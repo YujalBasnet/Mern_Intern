@@ -1,44 +1,54 @@
-import React from 'react'
+import React from "react";
+function Register({ type }) {
 
+  const isLogin = type === "login";
 
-function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
 
       <form className="w-[400px] bg-white p-[30px] rounded-xl shadow-lg">
 
         {/* Title */}
+
         <h1 className="text-3xl font-bold text-center mb-[8px]">
-          Create Account
+          {isLogin ? "Login" : "Create Account"}
         </h1>
 
+
         <p className="text-center text-gray-500 mb-[25px]">
-          Register for Free Job
+          {isLogin
+            ? "Welcome back to FreelanceHub"
+            : "Register for FreelanceHub"
+          }
         </p>
 
 
-        {/* Name */}
-        <div className="mb-[18px]">
+        {/* Name - ONLY REGISTER */}
 
-          <label
-            htmlFor="name"
-            className="block font-semibold mb-[7px]"
-          >
-            Full Name
-          </label>
+        {!isLogin && (
+          <div className="mb-[18px]">
 
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your full name"
-            className="w-full p-[12px] border border-gray-300 rounded-md outline-none focus:border-black"
-          />
+            <label
+              htmlFor="name"
+              className="block font-semibold mb-[7px]"
+            >
+              Full Name
+            </label>
 
-        </div>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              className="w-full p-[12px] border border-gray-300 rounded-md outline-none focus:border-black"
+            />
+
+          </div>
+        )}
 
 
         {/* Email */}
+
         <div className="mb-[18px]">
 
           <label
@@ -60,6 +70,7 @@ function App() {
 
 
         {/* Password */}
+
         <div className="mb-[18px]">
 
           <label
@@ -80,45 +91,79 @@ function App() {
         </div>
 
 
-        {/* Confirm Password */}
-        <div className="mb-[18px]">
+        {/* Confirm Password - ONLY REGISTER */}
 
-          <label
-            htmlFor="confirmPassword"
-            className="block font-semibold mb-[7px]"
-          >
-            Confirm Password
-          </label>
+        {!isLogin && (
+          <div className="mb-[18px]">
 
-          <input
-            type="password"
-            id="confirmPassword"
-            name="confirmPassword"
-            placeholder="Confirm your password"
-            className="w-full p-[12px] border border-gray-300 rounded-md outline-none focus:border-black"
-          />
+            <label
+              htmlFor="confirmPassword"
+              className="block font-semibold mb-[7px]"
+            >
+              Confirm Password
+            </label>
 
-        </div>
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              placeholder="Confirm your password"
+              className="w-full p-[12px] border border-gray-300 rounded-md outline-none focus:border-black"
+            />
 
-        {/* Register Button */}
+          </div>
+        )}
+
+
+        {/* Role - ONLY REGISTER */}
+
+        {!isLogin && (
+          <div className="mb-[20px]">
+
+            <label
+              htmlFor="role"
+              className="block font-semibold mb-[7px]"
+            >
+              Register as
+            </label>
+
+            <select
+              id="role"
+              name="role"
+              className="w-full p-[12px] border border-gray-300 rounded-md outline-none focus:border-black"
+            >
+              <option value="client">Client</option>
+              <option value="freelancer">Freelancer</option>
+            </select>
+
+          </div>
+        )}
+
+
+        {/* Button */}
+
         <button
           type="submit"
-          className="w-full p-[12px] bg-black text-white rounded-md font-bold text-[16px] hover:bg-gray-800 transition"
+          className="w-full p-[12px] bg-black text-white rounded-md font-bold hover:bg-gray-800 transition"
         >
-          Register
+          {isLogin ? "Login" : "Register"}
         </button>
 
 
-        {/* Login */}
+        {/* Bottom text */}
+
         <p className="text-center text-sm mt-[20px] text-gray-600">
 
-          Already have an account?
+          {isLogin
+            ? "Don't have an account?"
+            : "Already have an account?"
+          }
 
           <a
-            href="/login"
+            href={isLogin ? "/register" : "/login"}
             className="text-blue-600 hover:underline ml-[5px]"
           >
-            Login
+            {isLogin ? "Register" : "Login"}
           </a>
 
         </p>
@@ -126,7 +171,7 @@ function App() {
       </form>
 
     </div>
-  )
+  );
 }
 
-export default App
+export default Register;
