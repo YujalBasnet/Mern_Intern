@@ -43,12 +43,13 @@
 
 // export default App
 import React from 'react'
-import Register from './Register'
+import Clone from './clone.jsx'
 
 
 function App() {
   return (
     // <Register type="login" />
+    <Clone/>
   )
 }
 
