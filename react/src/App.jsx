@@ -48,7 +48,7 @@ import Register from './Register'
 
 function App() {
   return (
-    <Register type="login" />
+    // <Register type="login" />
   )
 }
 
