@@ -136,7 +136,7 @@ function Clone() {
           </div>
 
           <a
-            href="#"
+            
             className="px-8 py-2 border-2 border-black rounded-lg cursor-pointer hover:bg-black hover:text-white"
           >
             View All Courses
