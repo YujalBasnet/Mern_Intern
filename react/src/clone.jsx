@@ -510,7 +510,7 @@ function Clone() {
             <h3 className="text-lg font-bold mb-2">
               Mobile Development
             </h3>
-            <p className="text-gray-500 text-sm">
+            <p className="text-black-500 text-sm">
               59 Courses
             </p>
           </div>
