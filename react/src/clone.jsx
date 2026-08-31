@@ -242,7 +242,6 @@ function Clone() {
 
           </div>
 
-
           {/* Card 3 */}
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
@@ -288,7 +287,6 @@ function Clone() {
             </div>
 
           </div>
-
 
           {/* Card 4 */}
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
