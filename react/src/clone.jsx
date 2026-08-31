@@ -119,7 +119,6 @@ function Clone() {
 
       </section>
 
-
       {/* ================= FEATURED COURSES ================= */}
       <section className="bg-white px-[8%] py-16 text-[#17182c]">
 
