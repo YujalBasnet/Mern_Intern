@@ -144,10 +144,8 @@ function Clone() {
 
         </div>
 
-
         {/* Course Cards */}
         <div className="grid grid-cols-3 gap-6">
-
 
           {/* Card 1 */}
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
