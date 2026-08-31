@@ -436,7 +436,7 @@ function Clone() {
             Browse Categories
           </h2>
 
-          <p className="text-gray-500 text-[15px]">
+          <p className="text-black text-[15px]">
             Explore courses across all domains
           </p>
 
