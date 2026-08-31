@@ -480,7 +480,7 @@ function Clone() {
             <h3 className="text-lg font-bold mb-2">
               Cloud & DevOps
             </h3>
-            <p className="text-gray-500 text-sm">
+            <p className="text-black-500 text-sm">
               54 Courses
             </p>
           </div>
