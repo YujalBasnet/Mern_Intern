@@ -442,7 +442,6 @@ function Clone() {
 
         </div>
 
-
         <div className="grid grid-cols-4 gap-5">
 
           <div className="p-8 rounded-2xl cursor-pointer transition duration-300 hover:-translate-y-1 hover:shadow-xl">
