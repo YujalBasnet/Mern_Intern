@@ -520,7 +520,7 @@ function Clone() {
             <h3 className="text-lg font-bold mb-2">
               AI & Machine Learning
             </h3>
-            <p className="text-gray-500 text-sm">
+            <p className="text-black-500 text-sm">
               32 Courses
             </p>
           </div>
