@@ -428,7 +428,7 @@ function Clone() {
 
 
       {/* ================= CATEGORIES ================= */}
-      <section className="w-full my-20 px-[8%]">
+      <section className="w-full my-20 px-[8%] ">
 
         <div className="mb-9">
 
@@ -450,7 +450,7 @@ function Clone() {
             <h3 className="text-lg font-bold mb-2">
               Web Development
             </h3>
-            <p className="text-gray-500 text-sm">
+            <p className="text-black-500 text-sm">
               125 Courses
             </p>
           </div>
