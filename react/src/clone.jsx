@@ -57,7 +57,6 @@ function Clone() {
           </span>
         </p>
 
-
         {/* Hero Buttons */}
         <div className="mt-5 flex gap-3">
 
@@ -74,7 +73,6 @@ function Clone() {
           </button>
 
         </div>
-
 
         {/* ================= STATS ================= */}
         <div className="w-full border-t border-[#292a40] flex justify-center gap-16 pt-8 mt-20">
