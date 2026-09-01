@@ -324,15 +324,12 @@ function Practise() {
             {/* ================= RELATED COURSES ================= */}
             <div className="mt-8">
 
-
               <h3 className="text-base font-medium mb-6 text-center">
                 Related Courses
               </h3>
 
-
               {/* RELATED CARD 1 */}
               <div className="w-full bg-white rounded-xl overflow-hidden mb-8 shadow-md">
-
 
                 <div className="w-full h-24 relative overflow-hidden">
 
