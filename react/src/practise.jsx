@@ -224,12 +224,10 @@ function Practise() {
 
                 </div>
 
-
                 {/* REQUIREMENTS */}
                 <h3 className="text-xl font-medium mt-8 mb-3">
                   Course Requirement
                 </h3>
-
 
                 <ul className="pl-4 list-disc">
 
