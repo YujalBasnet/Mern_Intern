@@ -348,7 +348,6 @@ function Practise() {
 
                 </div>
 
-
                 <div className="p-2">
 
                   <h4 className="text-xs leading-relaxed font-medium min-h-9">
@@ -357,7 +356,6 @@ function Practise() {
                     Development
 
                   </h4>
-
 
                   <div className="flex justify-between items-center mt-4">
 
