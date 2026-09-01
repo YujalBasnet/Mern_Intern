@@ -284,7 +284,6 @@ function Practise() {
 
               </div>
 
-
               <button className="w-full mt-4 py-2 border-0 bg-[#d83b64] text-white rounded text-xs cursor-pointer">
 
                 Continue Learning 
@@ -293,14 +292,12 @@ function Practise() {
 
             </div>
 
-
             {/* ================= COURSE INCLUDES ================= */}
             <div className="mt-10 text-base">
 
               <h4 className="text-base mb-3">
                 THIS COURSE INCLUDES:
               </h4>
-
 
               <p className="mb-2">
                 - 45 high-quality videos
