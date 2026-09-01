@@ -207,20 +207,17 @@ function Practise() {
                     </p>
                   </div>
 
-
                   <div className="flex items-start gap-3">
                     <p className="text-sm text-[#777]">
                       - Routing with React Router V6.4+
                     </p>
                   </div>
 
-
                   <div className="flex items-start gap-3">
                     <p className="text-sm text-[#777]">
                       - Responsive design with Tailwind and CSS
                     </p>
                   </div>
-
 
                 </div>
 
