@@ -478,8 +478,4 @@ function Practise() {
     </div>
   );
 }
-
-
-
-
 export default Practise;
