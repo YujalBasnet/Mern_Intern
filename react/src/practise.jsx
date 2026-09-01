@@ -287,7 +287,7 @@ function Practise() {
 
               <button className="w-full mt-4 py-2 border-0 bg-[#d83b64] text-white rounded text-xs cursor-pointer">
 
-                Continue Learning &gt;
+                Continue Learning 
 
               </button>
 
