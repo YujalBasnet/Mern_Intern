@@ -257,25 +257,20 @@ function Practise() {
           {/* ================= RIGHT SIDE ================= */}
           <section className="w-[250px]">
 
-
             {/* ================= PROGRESS CARD ================= */}
             <div className="bg-white rounded-lg px-4 pt-2 pb-4 shadow-md">
-
 
               <h3 className="text-center text-xs border-t-2 border-[#d83b64] pt-1">
                 Your Progress
               </h3>
 
-
               <p className="mt-4 text-sm">
                 65 %
               </p>
 
-
               <small className="text-xs text-[#777]">
                 completed
               </small>
-
 
               {/* PROGRESS BAR */}
               <div className="w-full h-1 bg-[#ddd] mt-2 rounded-full">
