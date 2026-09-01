@@ -49,7 +49,8 @@ import Clone from './clone.jsx'
 function App() {
   return (
     // <Register type="login" />
-    <Clone/>
+    // <Clone/>
+    <Practise/>
   )
 }
 
