@@ -140,7 +140,7 @@ function Practise() {
 
               {/* COURSE DETAILS */}
               <p className="absolute bottom-2 right-2 text-[8px]">
-                Beginner &nbsp;&nbsp; 42 hrs &nbsp;&nbsp; 8000+ Students
+                Beginner , 42 hrs , 8000+ Students
               </p>
 
             </div>
