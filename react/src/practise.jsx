@@ -375,10 +375,8 @@ function Practise() {
 
               </div>
 
-
               {/* RELATED CARD 2 */}
               <div className="w-full bg-white rounded-xl overflow-hidden mb-8 shadow-md">
-
 
                 <div className="w-full h-24 relative overflow-hidden">
 
@@ -387,7 +385,6 @@ function Practise() {
                     alt="UI UX Design"
                     className="w-full h-full object-cover"
                   />
-
                   <span className="absolute bottom-0 left-0 bg-[#397e4d] text-white text-[8px] py-1 px-2">
                     Design
                   </span>
