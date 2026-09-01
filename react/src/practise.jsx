@@ -394,7 +394,6 @@ function Practise() {
 
                 </div>
 
-
                 <div className="p-2">
 
                   <h4 className="text-xs leading-relaxed font-medium min-h-9">
@@ -403,7 +402,6 @@ function Practise() {
                     with Figma
 
                   </h4>
-
 
                   <div className="flex justify-between items-center mt-4">
 
@@ -420,7 +418,6 @@ function Practise() {
                 </div>
 
               </div>
-
 
               {/* RELATED CARD 3 */}
               <div className="w-full bg-white rounded-xl overflow-hidden mb-8 shadow-md">
@@ -439,7 +436,6 @@ function Practise() {
                   </span>
 
                 </div>
-
 
                 <div className="p-2">
 
