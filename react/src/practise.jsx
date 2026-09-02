@@ -61,7 +61,6 @@ function Practise() {
             <span>Logout</span>
           </div>
 
-
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer">
 
             <button className="w-40 py-1 mt-32 bg-[#5f2a37] text-white border-0 rounded cursor-pointer">
@@ -71,7 +70,6 @@ function Practise() {
           </div>
 
         </aside>
-
 
         {/* ================= PAGE CONTENT ================= */}
         <main className="flex-1 flex px-16 py-8 gap-12">
