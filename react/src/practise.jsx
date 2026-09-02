@@ -2,9 +2,6 @@ import React from 'react'
 
 function Practise() {
   return (
-    
-
-
     <div className="min-h-screen bg-[#f7f8fc]">
 
       {/* ================= HEADER ================= */}
