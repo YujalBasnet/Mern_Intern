@@ -278,7 +278,6 @@ function Practise() {
 
             </div>
 
-
             {/* ================= RELATED COURSES ================= */}
             <div className="mt-8">
 
@@ -372,7 +371,6 @@ function Practise() {
               {/* RELATED CARD 3 */}
               <div className="w-full bg-white rounded-xl overflow-hidden mb-8 shadow-md">
 
-
                 <div className="w-full h-24 relative overflow-hidden">
 
                   <img
@@ -395,7 +393,6 @@ function Practise() {
 
                   </h4>
 
-
                   <div className="flex justify-between items-center mt-4">
 
                     <p className="text-[8px] text-[#999]">
@@ -411,7 +408,6 @@ function Practise() {
                 </div>
 
               </div>
-
 
             </div>
 
