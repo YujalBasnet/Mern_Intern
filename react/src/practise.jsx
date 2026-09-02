@@ -167,13 +167,11 @@ function Practise() {
                 {/* FEATURES */}
                 <div className="grid grid-cols-2 gap-x-8 gap-y-4 mt-6 px-4">
 
-
                   <div className="flex items-start gap-3">
                     <p className="text-sm text-[#777]">
                       - Master React hooks
                     </p>
                   </div>
-
 
                   <div className="flex items-start gap-3">
                     <p className="text-sm text-[#777]">
@@ -221,7 +219,6 @@ function Practise() {
             </div>
 
           </div>
-
 
           {/* ================= RIGHT SIDE ================= */}
           <section className="w-[250px]">
