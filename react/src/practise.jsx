@@ -74,10 +74,8 @@ function Practise() {
         {/* ================= PAGE CONTENT ================= */}
         <main className="flex-1 flex px-16 py-8 gap-12">
 
-
           {/* ================= COURSE CONTENT ================= */}
           <div className="w-[65%] relative">
-
 
             {/* COURSE IMAGE */}
             <div className="w-full h-[230px] overflow-hidden relative">
@@ -90,10 +88,8 @@ function Practise() {
 
             </div>
 
-
             {/* COURSE IMAGE OVERLAY */}
             <div className="absolute top-0 left-0 w-full h-[230px] bg-black/20 text-white p-2">
-
 
               {/* TAGS */}
               <div className="flex items-center gap-12 text-[8px]">
@@ -108,7 +104,6 @@ function Practise() {
 
               </div>
 
-
               {/* COURSE TITLE */}
               <h2 className="text-center mt-12 text-2xl leading-tight font-bold">
 
@@ -121,7 +116,6 @@ function Practise() {
                 Bootcamp 2025
 
               </h2>
-
 
               {/* COURSE DETAILS */}
               <p className="absolute bottom-2 right-2 text-[8px]">
