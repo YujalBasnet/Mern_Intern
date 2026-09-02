@@ -29,11 +29,9 @@ function Practise() {
             Main Menu
           </p>
 
-
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer">
             <span>Overview</span>
           </div>
-
 
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer bg-[#e83d69]">
             <span>My Courses</span>
