@@ -18,10 +18,9 @@ function Practise() {
         </ul>
 
       </header>
-      
+
       {/* ================= MAIN LAYOUT ================= */}
       <div className="flex min-h-[calc(100vh-48px)]">
-
 
         {/* ================= SIDEBAR ================= */}
         <aside className="w-[150px] min-h-[calc(100vh-48px)] bg-[#17172d] text-white py-8 px-3">
