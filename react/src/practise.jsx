@@ -18,8 +18,7 @@ function Practise() {
         </ul>
 
       </header>
-
-
+      
       {/* ================= MAIN LAYOUT ================= */}
       <div className="flex min-h-[calc(100vh-48px)]">
 
