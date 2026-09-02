@@ -37,31 +37,25 @@ function Practise() {
             <span>My Courses</span>
           </div>
 
-
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer">
             <span>My Mentors</span>
           </div>
-
 
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer">
             <span>Calendar</span>
           </div>
 
-
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer">
             <span>Message</span>
           </div>
-
 
           <p className="text-base text-[#9292a5] mt-8 mb-3 ml-1">
             Account
           </p>
 
-
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer">
             <span>Settings</span>
           </div>
-
 
           <div className="h-8 flex items-center gap-2 text-[12px] px-2 mb-1 rounded-md cursor-pointer">
             <span>Logout</span>
