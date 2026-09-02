@@ -124,7 +124,6 @@ function Practise() {
 
             </div>
 
-
             {/* ================= TABS ================= */}
             <div className="flex gap-8 mt-3 border-b border-[#ddd]">
 
@@ -145,7 +144,6 @@ function Practise() {
               </div>
 
             </div>
-
 
             {/* ================= OVERVIEW ================= */}
             <div className="mt-4">
