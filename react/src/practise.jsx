@@ -152,9 +152,7 @@ function Practise() {
                 About this Course
               </h2>
 
-
               <div className="bg-white p-3 w-full">
-
 
                 <p className="text-sm leading-relaxed text-[#666] max-w-[95%]">
 
@@ -165,7 +163,6 @@ function Practise() {
                   science-based ways to solve practical problems.
 
                 </p>
-
 
                 {/* FEATURES */}
                 <div className="grid grid-cols-2 gap-x-8 gap-y-4 mt-6 px-4">
