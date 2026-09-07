@@ -10,9 +10,7 @@ function App() {
             <input class="w-1/2  border-none text-3xl bg-white" type="text" placeholder="Search"></input>
             <button class="border-1 border-black text-2xl cursor-pointer py-[10px] px-[20px] bg-white rounded-lg hover:bg-white-100">Add</button>
         </div>
-        <div class="flex gap-[20px] mt-[20px] ml-[20px]">
-
-            
+        <div class="flex gap-[20px] mt-[20px] ml-[20px]">           
             <div class="h-[33vh] w-[50vh] border-2 border-black bg-[#124f4f]">
 
                 <h2 class="text-center text-white text-2xl pt-[10px]">Title</h2>
