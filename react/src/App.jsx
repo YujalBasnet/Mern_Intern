@@ -11,7 +11,7 @@ function App() {
             <button class="border-1 border-black text-2xl cursor-pointer py-[10px] px-[20px] bg-white rounded-lg hover:bg-white-100">Add</button>
         </div>
 
-        {/* <!-- Boxes Container --> */}
+       
         <div class="flex gap-[20px] mt-[20px] ml-[20px]">
 
             {/* <!-- First Box --> */}
