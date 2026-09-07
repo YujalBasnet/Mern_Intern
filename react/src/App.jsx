@@ -24,8 +24,6 @@ function App() {
                 </div>
 
             </div>
-
-            
             <div class="h-[33vh] w-[50vh] border-2 border-black bg-[#124f4f]">
               <h2 class="text-center text-white text-2xl pt-[10px]">Title</h2>
 
