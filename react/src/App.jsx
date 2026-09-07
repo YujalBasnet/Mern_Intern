@@ -14,7 +14,7 @@ function App() {
        
         <div class="flex gap-[20px] mt-[20px] ml-[20px]">
 
-            {/* <!-- First Box --> */}
+            
             <div class="h-[33vh] w-[50vh] border-2 border-black bg-[#124f4f]">
 
                 <h2 class="text-center text-white text-2xl pt-[10px]">Title</h2>
