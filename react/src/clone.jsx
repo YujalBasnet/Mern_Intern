@@ -516,8 +516,6 @@ function Clone() {
 
       </section>
 
-
-      {/* ================= TRAINER ================= */}
       <section className="py-24 px-5 bg-white flex justify-center items-center text-center">
 
         <div className="max-w-3xl">
@@ -549,8 +547,6 @@ function Clone() {
 
       </section>
 
-
-      {/* ================= FOOTER ================= */}
       <footer className="bg-[#17172f] text-white text-center px-5 pt-20 pb-8">
 
         <div>
