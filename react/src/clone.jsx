@@ -4,7 +4,7 @@ function Clone() {
   return (
     <div className="min-h-screen bg-[#6768a5] flex flex-col">
 
-      {/* ================= HEADER ================= */}
+      
       <header className="h-12 w-full px-8 bg-[#eef1ee] flex justify-between items-center">
 
         <h1 className="text-xl font-bold">
@@ -33,7 +33,7 @@ function Clone() {
 
       </header>
 
-      {/* ================= HERO SECTION ================= */}
+      
       <section className="flex flex-col items-center">
 
         <p className="mt-10 px-2 text-base text-white bg-purple-600 border-2 border-black rounded-lg cursor-pointer hover:bg-[#6768a5]">
@@ -56,7 +56,7 @@ function Clone() {
           </span>
         </p>
 
-        {/* Hero Buttons */}
+        
         <div className="mt-5 flex gap-3">
 
           <button
@@ -73,7 +73,7 @@ function Clone() {
 
         </div>
 
-        {/* ================= STATS ================= */}
+       
         <div className="w-full border-t border-[#292a40] flex justify-center gap-16 pt-8 mt-20">
 
           <div className="text-center">
