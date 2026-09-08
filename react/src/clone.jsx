@@ -280,7 +280,7 @@ function Clone() {
 
           </div>
 
-          {/* Card 4 */}
+          
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
             <div className="h-36 relative flex justify-center items-center text-4xl text-white bg-gradient-to-r from-yellow-400 to-orange-500">
@@ -322,7 +322,7 @@ function Clone() {
 
           </div>
 
-          {/* Card 5 */}
+          
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
             <div className="h-36 relative flex justify-center items-center text-4xl text-white bg-gradient-to-r from-indigo-400 to-blue-600">
@@ -364,7 +364,7 @@ function Clone() {
 
           </div>
 
-          {/* Card 6 */}
+         
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
             <div className="h-36 relative flex justify-center items-center text-4xl text-white bg-gradient-to-r from-cyan-400 to-blue-600">
@@ -415,7 +415,7 @@ function Clone() {
       </section>
 
 
-      {/* ================= CATEGORIES ================= */}
+     
       <section className="w-full my-20 px-[8%] ">
 
         <div className="mb-9">
