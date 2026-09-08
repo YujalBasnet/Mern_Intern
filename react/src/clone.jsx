@@ -188,7 +188,7 @@ function Clone() {
 
           </div>
 
-          {/* Card 2 */}
+          
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
             <div className="h-36 relative flex justify-center items-center text-4xl text-white bg-gradient-to-r from-green-400 to-green-700">
@@ -234,7 +234,7 @@ function Clone() {
 
           </div>
 
-          {/* Card 3 */}
+          
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
             <div className="h-36 relative flex justify-center items-center text-4xl text-white bg-gradient-to-r from-pink-400 to-purple-500">
