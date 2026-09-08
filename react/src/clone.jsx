@@ -116,7 +116,7 @@ function Clone() {
 
       </section>
 
-      {/* ================= FEATURED COURSES ================= */}
+      
       <section className="bg-white px-[8%] py-16 text-[#17182c]">
 
         <div className="flex justify-between items-center mb-10">
@@ -139,10 +139,10 @@ function Clone() {
 
         </div>
 
-        {/* Course Cards */}
+       
         <div className="grid grid-cols-3 gap-6">
 
-          {/* Card 1 */}
+          
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-md transition duration-300 hover:-translate-y-1 hover:shadow-xl">
 
             <div className="h-36 relative flex justify-center items-center text-4xl text-white bg-gradient-to-r from-blue-500 to-purple-500">
