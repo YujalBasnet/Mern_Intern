@@ -54,7 +54,7 @@ const Api_testing = () => {
               ${product.price}
             </p>
 
-            <button className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800">
+            <button className="bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 cursor-pointer ">
               Add to Cart
             </button>
 
