@@ -3,13 +3,13 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 const Api_testing = () => {
-    const [value, setValue] = useState([]);
+    const [dataharu, setdataharu] = useState([]);
 
 
     const fetchData = async () => {
         const value = await axios.get("https://fakestoreapi.com/products");
         console.log(value.data);
-        setValue(value.data);
+        setdataharu(value.data);
     };
     useEffect(() => {
         fetchData();
@@ -24,7 +24,7 @@ const Api_testing = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-        {value.map((product) => (
+        {dataharu.map((product) => (
 
             <div
                 key={product.id}
