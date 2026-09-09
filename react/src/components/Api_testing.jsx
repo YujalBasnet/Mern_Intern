@@ -7,9 +7,9 @@ const Api_testing = () => {
 
 
     const fetchData = async () => {
-        const value = await axios.get("https://fakestoreapi.com/products");
-        console.log(value.data);
-        setdataharu(value.data);
+        const dataharu = await axios.get("https://fakestoreapi.com/products");
+        console.log(dataharu.data);
+        setdataharu(dataharu.data);
     };
     useEffect(() => {
         fetchData();
