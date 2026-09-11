@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-const User_api = () => {
+const User_Api = () => {
     const [value, setValue] = React.useState([]);
 
     const fetchData = async () => {
@@ -103,4 +103,4 @@ const User_api = () => {
     );
 };
 
-export default User_api;
+export default User_Api;
