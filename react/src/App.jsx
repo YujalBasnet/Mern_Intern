@@ -18,6 +18,10 @@ const App = () => {
       {
         path : "/",
         element : <Api_testing />
+      },
+      {
+        path: "/user",
+        element: <User_Api />
       }
     ]);
 
