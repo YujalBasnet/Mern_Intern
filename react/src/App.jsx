@@ -2,6 +2,7 @@ import React from 'react';
 import Todo from './components/todo';
 import Clone from './components/clone';
 import Api_testing from './components/Api_testing';
+import User_Api from './components/User_Api';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const App = () => {
