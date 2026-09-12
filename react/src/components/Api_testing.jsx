@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 const Api_testing = () => {
     const [dataharu, setdataharu] = useState([]);
 
@@ -26,7 +27,7 @@ const Api_testing = () => {
   <div className="px-4 py-2">
     <button onClick={() => navigate("/user")}
             className="bg-black text-white px-7 py-7 rounded-lg cursor-pointer hover:bg-gray-800 transition ">
-            Click here to see the user
+            Click here to see the user!!
         </button>
   </div>
 
