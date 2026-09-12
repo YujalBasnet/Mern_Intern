@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Api_testing = () => {
     const [dataharu, setdataharu] = useState([]);
+    const navigate = useNavigate();
 
 
     const fetchData = async () => {
