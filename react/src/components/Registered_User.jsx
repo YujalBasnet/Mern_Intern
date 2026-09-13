@@ -30,7 +30,7 @@ function Registered_User() {
   return (
     <div>
 
-      <h1>Registered Users</h1>
+      <h1>Registered USERS</h1>
 
       {users.map((user) => (
         <p key={user.id}>
