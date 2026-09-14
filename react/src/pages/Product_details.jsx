@@ -29,17 +29,56 @@ const Product_details = () => {
     }
 
     return (
-    <div className="flex felx-col justify-center items-center">
-        <h1 className="text-6xl font-extrabold"> TITLE: {product.title}</h1>
-        <img src={product.image} alt={product.title} className="w-96 h-96 object-contain" />
-        <p className="text-2xl font-bold"> PRICE: ${product.price}</p>
-        <p className="text-2xl font-bold"> CATEGORY: {product.category}</p>
-        <p className="text-2xl font-bold"> RATING: {product.rating?.rate}</p>
-        <p className="text-2xl font-bold"> COUNT: {product.rating?.count}</p>
-        <p className="text-2xl font-bold"> DESCRIPTION: </p>
-        <p> {product.description}</p>
+  <div className="min-h-screen p-10">
+
+    <div className="flex items-center gap-10">
+
+      {/* Product Image */}
+      <div className="w-1/3">
+        <img
+          src={product.image}
+          alt={product.title}
+          className="w-96 h-96 object-contain"
+        />
+      </div>
+
+      {/* Product Information */}
+      <div className="w-2/3">
+
+        <h1 className="text-5xl font-extrabold mb-6">
+          {product.title}
+        </h1>
+
+        <p className="text-2xl font-bold mb-3">
+          PRICE: ${product.price}
+        </p>
+
+        <p className="text-2xl font-bold mb-3">
+          CATEGORY: {product.category}
+        </p>
+
+        <p className="text-2xl font-bold mb-3">
+          RATING: {product.rating?.rate}
+        </p>
+
+        <p className="text-2xl font-bold mb-3">
+          COUNT: {product.rating?.count}
+        </p>
+
+        <p className="text-2xl font-bold mb-2">
+          DESCRIPTION:
+        </p>
+
+        <p className="text-lg text-gray-600">
+          {product.description}
+        </p>
+
+      </div>
+
     </div>
-  );
+
+  </div>
+);
 };
 
 export default Product_details;
