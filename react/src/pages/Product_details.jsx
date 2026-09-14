@@ -2,11 +2,13 @@ import React from 'react'
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from "react-router-dom";
 
 const Product_details = () => {
     const { id } = useParams();
     const [product, setproduct] = useState({});
     const [loading, setloading] = useState(false);
+    const navigate = useNavigate();
 
     const fetchData = async () => {
         setloading(true);
