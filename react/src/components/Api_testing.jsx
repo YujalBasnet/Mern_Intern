@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const Api_testing = () => {
@@ -34,7 +34,9 @@ const Api_testing = () => {
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-      {dataharu.map((product) => (
+      {dataharu.map((product, index) => {
+        return (
+          <Link to={`/product_details/${product.id}`}>
         <div
           key={product.id}
           className="bg-white rounded-xl shadow-md p-5 hover:shadow-xl transition"
@@ -71,7 +73,10 @@ const Api_testing = () => {
           </div>
 
         </div>
-      ))}
+        </Link>
+        );
+      })}
+      
 
     </div>
   </div>
