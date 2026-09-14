@@ -79,11 +79,13 @@ const Product_details = () => {
       
 
     </div>
+    <div className="mt-10 flex justify-center">
         <button
         onClick={() => navigate("/")}
         className="bg-black text-white px-5 py-2 rounded-lg hover:bg-gray-800 cursor-pointer mb-8">
         ← Back to Menu
       </button>
+    </div>
   </div>
 );
 };
