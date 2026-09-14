@@ -31,6 +31,12 @@ const Product_details = () => {
     return (
     <div className="flex felx-col justify-center items-center">
         <h1 className="text-6xl font-extrabold"> TITLE: {product.title}</h1>
+        <img src={product.image} alt={product.title} className="w-96 h-96 object-contain" />
+        <p className="text-2xl font-bold"> PRICE: ${product.price}</p>
+        <p className="text-2xl font-bold"> CATEGORY: {product.category}</p>
+        <p className="text-2xl font-bold"> RATING: {product.rating?.rate}</p>
+        <p className="text-2xl font-bold"> COUNT: {product.rating?.count}</p>
+        <p className="text-2xl font-bold"> DESCRIPTION: </p>
         <p> {product.description}</p>
     </div>
   );
