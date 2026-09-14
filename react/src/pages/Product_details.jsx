@@ -29,8 +29,11 @@ const Product_details = () => {
     }
 
     return (
-    <div className="flex felx-col justify-center items-center"></div>
-  )
-}
+    <div className="flex felx-col justify-center items-center">
+        <h1 className="text-6xl font-extrabold"> TITLE: {product.title}</h1>
+        <p> {product.description}</p>
+    </div>
+  );
+};
 
 export default Product_details;
