@@ -43,7 +43,7 @@ const Product_details = () => {
           className="w-96 h-96 object-contain"
         />
       </div>
-
+        
       {/* Product Information */}
       <div className="w-2/3">
 
@@ -76,9 +76,14 @@ const Product_details = () => {
         </p>
 
       </div>
+      
 
     </div>
-
+        <button
+        onClick={() => navigate("/")}
+        className="bg-black text-white px-5 py-2 rounded-lg hover:bg-gray-800 cursor-pointer mb-8">
+        ← Back to Menu
+      </button>
   </div>
 );
 };
