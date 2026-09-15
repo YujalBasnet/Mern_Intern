@@ -1,13 +1,14 @@
 import React from 'react'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Product_in_table = () => {
-    const [value, setValue] = React.useState([]);
+    const [value, setValue] = useState([]);
 
 
     const handleDelete = async (id) => {
-        await axios.delete(`https://fakestoreapi.com/users/${id}`)
+        await axios.delete(`https://fakestoreapi.com/products/${id}`)
         .then((res) => {
             console.log(res.data);
         })
@@ -30,89 +31,74 @@ const Product_in_table = () => {
     }, []);
 
     return (
-        
-<div className="min-h-screen bg-gray-100 p-8">
-
-    <h1 className="text-4xl font-bold text-center mb-10 text-gray-800">
-        Fake Store Users
-    </h1>
-
-    <div className="overflow-x-auto bg-white rounded-xl shadow-lg">
-
-        <table className="w-full text-left">
-
-            <thead className="bg-gray-800 text-white">
-                <tr>
-                    <th className="px-6 py-4">ID</th>
-                    <th className="px-6 py-4">Name</th>
-                    <th className="px-6 py-4">Email</th>
-                    <th className="px-6 py-4">Username</th>
-                    <th className="px-6 py-4">Phone</th>
-                    <th className="px-6 py-4">Address</th>
-                    <th className="px-6 py-4">Action</th>
-                </tr>
-            </thead>
-
-            <tbody>
-
-                {value.map((user) => (
-                    <tr
-                        key={user.id}
-                        className="border-b hover:bg-gray-100 transition"
-                    >
-
-                        <td className="px-6 py-4 font-semibold">
-                            {user.id}
-                        </td>
-
-                        <td className="px-6 py-4 font-bold text-gray-800">
-                            {user.name.firstname} {user.name.lastname}
-                        </td>
-
-                        <td className="px-6 py-4 text-gray-600">
-                            {user.email}
-                        </td>
-
-                        <td className="px-6 py-4 text-gray-600">
-                            {user.username}
-                        </td>
-
-                        <td className="px-6 py-4 text-gray-600">
-                            {user.phone}
-                        </td>
-
-                        <td className="px-6 py-4 text-gray-600">
-                            {user.address.city}, {user.address.street}, {user.address.zipcode}
-                        </td>
-
-                        <td className="px-6 py-4">
-                            <div className="flex gap-2">
-                        
-                                <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-                                    Edit
-                                    </button>
-                        
-                                <button onClick={()=> handleDelete(user.id)} 
-                                className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
-                                    Delete
-                                </button>
-                        
-                            </div>
-                        </td>
-
-                    </tr>
-                ))}
-
-            </tbody>
-
+    <div>
+      <div className="flex gap-80">
+        <input
+          placeholder="Search For Products...."
+          type="search"
+          name=""
+          id=""
+        />
+        <Link to={"/add-product"}>
+          <button className="bg-green-500">Add Product</button>
+        </Link>
+      </div>
+      <div class="relative overflow-x-auto bg-neutral-primary-soft shadow-xs rounded-base border border-default">
+        <table class="w-full text-sm text-left rtl:text-right text-body">
+          <thead class="text-sm text-body bg-neutral-secondary-soft border-b rounded-base border-default">
+            <tr>
+              <th scope="col" class="px-6 py-3 font-medium">
+                Image
+              </th>
+              <th scope="col" class="px-6 py-3 font-medium">
+                Product name
+              </th>
+              <th scope="col" class="px-6 py-3 font-medium">
+                Description
+              </th>
+              <th scope="col" class="px-6 py-3 font-medium">
+                Category
+              </th>
+              <th scope="col" class="px-6 py-3 font-medium">
+                Price
+              </th>
+              <th scope="col" class="px-6 py-3 font-medium">
+                Action
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {value?.map((item, index) => {
+              return (
+                <>
+                  <tr class="bg-neutral-primary border-b border-default">
+                    <td class="px-6 py-4">
+                      <img src={item.image} alt="" />
+                    </td>
+                    <th class="px-6 py-4">{item.title}</th>
+                    <td class="px-6 py-4">{item.description}</td>
+                    <td class="px-6 py-4">{item.category}</td>
+                    <td class="px-6 py-4">Rs. {item.price}</td>
+                    <td class="px-6 py-4 flex justify-center items-center gap-4">
+                      <button
+                        onClick={() => handleDelete(item.id)}
+                        className="bg-red-500"
+                      >
+                        Delete
+                      </button>
+                      {/* <Link to={`/edit-product/${item.id}`}> */}
+                      <button className="bg-blue-500">Edit</button>
+                      {/* </Link> */}
+                    </td>
+                  </tr>
+                </>
+              );
+            })}
+          </tbody>
         </table>
-
+      </div>
     </div>
-
-</div>
-
-
-    );
+  );
 };
 
 export default Product_in_table;
