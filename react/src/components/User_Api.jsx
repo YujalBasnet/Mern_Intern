@@ -5,6 +5,17 @@ import { useEffect, useState } from 'react';
 const User_Api = () => {
     const [value, setValue] = React.useState([]);
 
+
+    const handleDelete = async (id) => {
+        await axios.delete(`https://fakestoreapi.com/users/${id}`)
+        .then((res) => {
+            console.log(res.data);
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+    };
+
     const fetchData = async () => {
         await axios.get('https://fakestoreapi.com/users').then((res) => {
             console.log(res.data);
@@ -38,7 +49,7 @@ const User_Api = () => {
                     <th className="px-6 py-4">Username</th>
                     <th className="px-6 py-4">Phone</th>
                     <th className="px-6 py-4">Address</th>
-                    <th className="px-6 py-4">Status</th>
+                    <th className="px-6 py-4">Action</th>
                 </tr>
             </thead>
 
@@ -81,7 +92,8 @@ const User_Api = () => {
                                     Edit
                                     </button>
                         
-                                <button className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
+                                <button onClick={()=> handleDelete(user.id)} 
+                                className="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">
                                     Delete
                                 </button>
                         
