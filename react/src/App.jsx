@@ -51,7 +51,7 @@ const App = () => {
         element:<AddProduct/>
       },
       {
-        path: "/edit/:id",
+        path: "/Editproduct/:id",
         element:<EditProduct/>
       }
     ]);
