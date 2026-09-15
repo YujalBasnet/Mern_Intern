@@ -39,7 +39,7 @@ const Product_in_table = () => {
           name=""
           id=""
         />
-        <Link to={"/add-product"}>
+        <Link to={"/form"}>
           <button className="bg-green-500">Add Product</button>
         </Link>
       </div>
