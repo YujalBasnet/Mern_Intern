@@ -7,6 +7,7 @@ import Register from './components/Register';
 import Registered_User from './components/Registered_User';
 import Product_details from './pages/Product_details';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Product_in_table from './pages/Product_in_table';
 
 const App = () => {
 
@@ -38,6 +39,10 @@ const App = () => {
       {
         path: "/product_details/:id",
         element: <Product_details />
+      },
+      {
+        path: "/products",
+        element: <Product_in_table />
       }
     ]);
 
