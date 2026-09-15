@@ -8,6 +8,7 @@ import Registered_User from './components/Registered_User';
 import Product_details from './pages/Product_details';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Product_in_table from './pages/Product_in_table';
+import AddProduct from './components/form/Addproduct';
 
 const App = () => {
 
@@ -43,6 +44,10 @@ const App = () => {
       {
         path: "/products",
         element: <Product_in_table />
+      },
+      {
+        path: "/form",
+        element:<AddProduct/>
       }
     ]);
 
@@ -50,6 +55,7 @@ const App = () => {
   return (
    <RouterProvider router={router} />
   );
+
 };
 
 export default App;
