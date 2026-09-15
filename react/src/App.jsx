@@ -9,6 +9,7 @@ import Product_details from './pages/Product_details';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Product_in_table from './pages/Product_in_table';
 import AddProduct from './components/form/Addproduct';
+import EditProduct from './components/form/Editproduct';
 
 const App = () => {
 
@@ -48,6 +49,10 @@ const App = () => {
       {
         path: "/form",
         element:<AddProduct/>
+      },
+      {
+        path: "/edit/:id",
+        element:<EditProduct/>
       }
     ]);
 
