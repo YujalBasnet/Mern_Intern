@@ -3,3 +3,8 @@
 /* button {
     @apply py-[10px] px-[20px] mb-[20px] rounded-lg cursor-pointer border-2;
 } */
+
+input,
+textarea {
+  @apply border-2 rounded-md p-2 w-full;
+}
