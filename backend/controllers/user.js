@@ -12,7 +12,8 @@ export const getUser = (req, res) => {
 };
 
 
-export const postUser = () => {
+
+export const postUser = (req, res) => {
     const {name, email, password, phone_number, address,} = req.body;
 
     const q=`INSERT INTO users (name, email, password, phone_number, address) VALUES(${name},
@@ -24,4 +25,4 @@ export const postUser = () => {
         }
         return res.send({message: "Data inserted successfully", result: result});
      });
-     
+};
