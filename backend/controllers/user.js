@@ -1,3 +1,5 @@
+import database from "../database/database.js";
+
 export const getUser = (req, res) => {
     const user={
         name: "Yujal Khulal Basnet",
