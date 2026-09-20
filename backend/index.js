@@ -19,7 +19,7 @@ app.get("/user", (req, res) => {
   const user = {
     name: "Yujal Khulal Basnet",
     email: "yujal@gmail.com",
-    contact: "9800000000",
+    phone_number: "9800000000",
     address: "Gothgaun, Morang",
     role: "user",
   };
