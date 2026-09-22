@@ -58,6 +58,25 @@ export const deleteUser = (req, res) => {
     }
 };
 
+export const editUser = (req, res) => {
+    try{
+        const {id} = req.params;
+
+        const {name, email, password, phone_number, address} = req.body;
+
+        const q = "UPDATE users SET name = ?, email = ?, password = ?, phone_number = ?, address = ? WHERE id = ?";
+
+        database.query(q, [name, email, password, phone_number, address, id], (err, data) => {
+            if(err){
+                return res.status(500).send({message: "Error while updating data", error: err,});
+            }
+            return res.status(200).send({message: "Data updated successfully", data: data});
+        });
+    }catch(error){
+        console.log(error);
+    }
+};
+
 
 export const postUser = (req, res) => {
     const {name, email, password, phone_number, address,} = req.body;
