@@ -20,6 +20,7 @@ export const getUser = (req, res) => {
             }
             return res.send({message: "Data fetched successfully", data: data});
         });
+
     }catch(error){
         console.log(error);
     }
@@ -37,6 +38,7 @@ export const getUserById = (req, res) => {
             }
             return res.status(200).send({message: "Data fetched successfully", data: data});
         });
+
     }catch(error){
         console.log(error);
     }
@@ -53,6 +55,7 @@ export const deleteUser = (req, res) => {
             }
             return res.status(200).send({message: "Data deleted successfully", data: data});
         });
+
     }catch(error){
         console.log(error);
     }
@@ -72,6 +75,7 @@ export const editUser = (req, res) => {
             }
             return res.status(200).send({message: "Data updated successfully", data: data});
         });
+
     }catch(error){
         console.log(error);
     }
@@ -90,6 +94,7 @@ export const postUser = (req, res) => {
         }
         return res.send({message: "Data inserted successfully", result: result});
      });
+     
     }catch(error){
         console.log(error);
     }
