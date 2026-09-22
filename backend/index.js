@@ -2,8 +2,11 @@ import express from "express";
 import UserRoutes from "./routes/user.route.js";
 import database from "./database/database.js";
 import todoRoutes from "./routes/todo.routes.js";
+import cors from "cors";
+
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 const PORT = 5000;
 

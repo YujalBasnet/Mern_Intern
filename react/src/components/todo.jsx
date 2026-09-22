@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 function Todo() {
@@ -16,7 +16,7 @@ function Todo() {
   }
 
   try{
-    const response= await axios.post("https://localhost:5000/api/create-todo",{
+    const response= await axios.post("http://localhost:5000/api/create-todo",{
       title:title,
       description:description,
       priority:priority

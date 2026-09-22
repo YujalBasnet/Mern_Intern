@@ -17,19 +17,41 @@ export const getTodos = (req, res) => {
 
 
 export const createTodo = (req, res) => {
-    try{
-        const {title, description, priority, } = req.body;
-        if (!title || !description || !priority) {
-            return res.status(400).send({message: "Please provide all required fields"});
-        }
-        const q = "INSERT INTO todos (title, description, priority) VALUES (?, ?, ?)";
-        database.query(q, [title, description, priority], (err, data) => {
-            if(err){
-                return res.send({message: "Error while creating todo", error: err});
-            }
-            return res.status(200).send({message: "Todo created successfully", data: data});
+  try {
+    const { title, description, priority } = req.body;
+
+    if (!title || !description || !priority) {
+      return res.status(400).send({
+        message: "Please provide all required fields",
+      });
+    }
+
+    const q =
+      "INSERT INTO todos (title, description, priority) VALUES (?, ?, ?)";
+
+    database.query(q, [title, description, priority], (err, data) => {
+      if (err) {
+        return res.status(500).send({
+          message: "Error while creating todo",
+          error: err,
         });
-    }catch(error){
-        console.log(error);
-    };
+      }
+
+      return res.status(201).send({
+        message: "Todo created successfully",
+        todo: {
+          id: data.insertId,
+          title: title,
+          description: description,
+          priority: priority,
+        },
+      });
+    });
+  } catch (error) {
+    console.log(error);
+
+    return res.status(500).send({
+      message: "Server error",
+    });
+  }
 };
