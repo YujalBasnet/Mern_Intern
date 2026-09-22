@@ -79,6 +79,7 @@ export const editUser = (req, res) => {
 
 
 export const postUser = (req, res) => {
+    try{
     const {name, email, password, phone_number, address,} = req.body;
 
     const q=`INSERT INTO users (name, email, password, phone_number, address) VALUES(?, ?, ?, ?, ?)`;
@@ -89,4 +90,7 @@ export const postUser = (req, res) => {
         }
         return res.send({message: "Data inserted successfully", result: result});
      });
+    }catch(error){
+        console.log(error);
+    }
 };
