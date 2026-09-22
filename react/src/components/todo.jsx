@@ -9,29 +9,28 @@ function Todo() {
 
  
   const handleSubmit = () => {
-    if (!title || !description || !priority) {
-      alert("Please fill all fields!");
-      return;
-    }
+  if (!title || !description || !priority) {
+    alert("Please fill all fields!");
+    return;
+  }
 
-    const newTodo = {
-      id: Date.now(),
-      title: title,
-      description: description,
-      priority: priority,
-    };
-
-    
-    setTodos([...todos, newTodo]);
-
-   
-    setTitle("");
-    setDescription("");
-    setPriority("");
-
-   
-    setShowForm(false);
+  const newTodo = {
+    id: Date.now(),
+    title: title,
+    description: description,
+    priority: priority,
   };
+
+  setTodos([...todos, newTodo]);
+
+  // Clear the form
+  setTitle("");
+  setDescription("");
+  setPriority("");
+
+  // Keep/open a new form
+  setShowForm(true);
+};
 
   
   const handleCancel = () => {
