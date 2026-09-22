@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 function Todo() {
   const [todos, setTodos] = useState([]);
@@ -8,29 +9,32 @@ function Todo() {
   const [priority, setPriority] = useState("");
 
  
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
   if (!title || !description || !priority) {
     alert("Please fill all fields!");
     return;
   }
 
-  const newTodo = {
-    id: Date.now(),
-    title: title,
-    description: description,
-    priority: priority,
-  };
+  try{
+    const response= await axios.post("https://localhost:5000/api/create-todo",{
+      title:title,
+      description:description,
+      priority:priority
+    });
+    console.log(response.data);
+    
+    setTodos([...todos, response.data.todo]);
 
-  setTodos([...todos, newTodo]);
+    setTitle("");
+    setDescription("");
+    setPriority("");
+    setShowForm(false);
+  } 
+  catch (error) {
+    console.error("Error creating todo:", error);
+  }
+  }
 
-  // Clear the form
-  setTitle("");
-  setDescription("");
-  setPriority("");
-
-  // Keep/open a new form
-  setShowForm(true);
-};
 
   
   const handleCancel = () => {
@@ -165,6 +169,6 @@ function Todo() {
 
     </div>
   );
-}
+};
 
 export default Todo;

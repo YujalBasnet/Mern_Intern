@@ -14,3 +14,22 @@ export const getTodos = (req, res) => {
         console.log(error);
     }
 };
+
+
+export const createTodo = (req, res) => {
+    try{
+        const {title, description, priority, } = req.body;
+        if (!title || !description || !priority) {
+            return res.status(400).send({message: "Please provide all required fields"});
+        }
+        const q = "INSERT INTO todos (title, description, priority) VALUES (?, ?, ?)";
+        database.query(q, [title, description, priority], (err, data) => {
+            if(err){
+                return res.send({message: "Error while creating todo", error: err});
+            }
+            return res.status(200).send({message: "Todo created successfully", data: data});
+        });
+    }catch(error){
+        console.log(error);
+    };
+};
