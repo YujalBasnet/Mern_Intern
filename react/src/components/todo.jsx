@@ -8,6 +8,19 @@ function Todo() {
   const [description, setDescription] = useState("");
   const [priority, setPriority] = useState("");
 
+  useEffect(() => { getTodos();
+  }, []);
+
+  const getTodos = async () => {
+    try {
+      const response = await axios.get("http://localhost:5000/api/get-todo");
+      setTodos(response.data.data);
+    } 
+    catch (error) {
+      console.error("Error fetching todos:", error);
+    }
+  };
+
  
   const handleSubmit = async () => {
   if (!title || !description || !priority) {
