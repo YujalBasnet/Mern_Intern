@@ -42,6 +42,21 @@ export const getUserById = (req, res) => {
     }
 };
 
+export const deleteUser = (req, res) => {
+    try{
+        const {id} = req.params;
+
+        const q = "DELETE FROM users WHERE id = ?";
+        database.query(q, [id], (err, data) => {
+            if(err){
+                return res.status(500).send({message: "Error while deleting data", error: err,});
+            }
+            return res.status(200).send({message: "Data deleted successfully", data: data});
+        });
+    }catch(error){
+        console.log(error);
+    }
+};
 
 
 export const postUser = (req, res) => {
