@@ -1,5 +1,5 @@
 import React from 'react';
-import Todo from './components/todo';
+import Todo from './todo/todo';
 import Clone from './components/clone';
 import Api_testing from './components/Api_testing';
 import User_Api from './components/User_Api';
@@ -15,9 +15,19 @@ const App = () => {
 
     const router = createBrowserRouter([
       {
-        path: "/todo",
-        element: <Todo />
+      path: "/",
+      element: <Todo />,
+      children: [
+        {
+          index: true,
+          element: <Todo />,
+        },
+      ]
       },
+      // {
+      //   path: "/todo",
+      //   element: <Todo />
+      // },
       {
         path : "/clone",
         element : <Clone />
