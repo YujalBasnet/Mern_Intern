@@ -4,8 +4,8 @@ const database = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   password: '1234',
-  database: 'practise'
-  // database: 'todo_app',
+  // database: 'practise'
+  database: 'todo_app',
 });
 
 database.connect((err) => {
