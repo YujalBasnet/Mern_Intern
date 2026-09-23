@@ -14,12 +14,12 @@ export const login = (req, res) => {
             if(data.length === 0){
                 return res.status(404).send({message: "User not found"});
             }else{
-                const passwordMatch= bcrypt.compareSync(password, result[0].password);
+                const passwordMatch= bcrypt.compareSync(password, data[0].password);
 
                 if (passwordMatch){
                     return res.status(200).send({
                         message: "user login successfully",
-                        data: result[0],
+                        data: data[0],
                     });
                 }else{
                     return res.status(404).send({ message: "Enail or password didn't match",

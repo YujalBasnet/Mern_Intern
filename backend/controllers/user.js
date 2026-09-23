@@ -37,7 +37,7 @@ export const getUserById = (req, res) => {
             if(err){
                 return res.status(500).send({message: "Error while fetching data", error: err,});
             }
-            return res.status(200).send({message: "Data fetched successfully", data: data});
+            return res.status(200).send({message: "Data fetched successfully", data: data[0]});
         });
 
     }catch(error){
