@@ -14,7 +14,7 @@ const PORT = 5000;
 
 
 app.use("/api", UserRoutes);
-app.use("/api", todoRoutes);
+
 app.use("/api", AuthRoutes); 
 // app.get("/", (req, res) => {
 //   res.send("Backend is running!");
