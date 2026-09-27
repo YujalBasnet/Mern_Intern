@@ -10,4 +10,13 @@ export const isLoggedIn = (req, res, next)=>{
     }
 
     const decryptedToken = jwt.verify(token, "secretKey");
+
+    req.userRole = 
+    decryptedToken.userRole === "admin" ?
+    "admin" : decryptedToken.userRole === "user" ?
+    "user" : decryptedToken.userRole === "superAdmin" ?
+    "superAdmin" : null;
+
+    next();
+    
 }
