@@ -7,7 +7,7 @@ const route = express.Router();
 
 
 
-route.get("/user",isLoggedIn, isAdmin, isUser, getUser);
+route.get("/user",isLoggedIn, isAdmin, getUser);
 route.post("/post-user",postUser);
 route.get("/getUserById/:id", getUserById);
 route.put("/editUser/:id", editUser);
