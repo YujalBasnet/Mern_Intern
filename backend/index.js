@@ -1,7 +1,7 @@
 import express from "express";
 import UserRoutes from "./routes/user.route.js";
 import database from "./database/database.js";
-import todoRoutes from "./routes/todo.routes.js";
+
 import AuthRoutes from "./routes/auth.route.js";
 import cors from "cors";
 

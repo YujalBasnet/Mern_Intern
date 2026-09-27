@@ -1,5 +1,6 @@
 import database from "../database/database.js";
 import bcrypt from "bcryptjs";
+import jwt from "jsonwebtoken";
 
 export const login = (req, res) => {
     try{
