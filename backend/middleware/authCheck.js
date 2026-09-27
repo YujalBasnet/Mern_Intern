@@ -55,3 +55,15 @@ export const isSuperAdmin = (req, res, next)=> {
         });
     }
 };
+
+export const isUser = (req, res, next) => {
+    const role= req.userRole;
+
+    if (role === "user"){
+        next();
+    } else {
+        res.status(401).send({
+            message: "Unauthorized access",
+        });
+    }
+};
