@@ -18,9 +18,15 @@ export const login = (req, res) => {
                 const passwordMatch= bcrypt.compareSync(password, data[0].password);
 
                 if (passwordMatch){
+                    const token = jwt.sign({
+                        userId: data[0].id,
+                        userName: data[0].name,
+                        userRole: data[0].role,
+                    }, "secretKey");
                     return res.status(200).send({
                         message: "user login successfully",
                         data: data[0],
+                        token: token,
                     });
                 }else{
                     return res.status(404).send({ message: "Enail or password didn't match",
