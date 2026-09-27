@@ -31,3 +31,15 @@ export const isAdmin = (req, res, next)=>{
         });
     }
 };
+
+export const isSuperAdmin = (req, res, next)=> {
+    const role= req.userRole;
+
+    if(role === "superAdmin" || role === "admin"){
+        next();
+    } else{
+        res.status(401).send({
+            message: "Unauthorized access",
+        });
+    }
+};
