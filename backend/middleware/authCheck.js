@@ -1,0 +1,13 @@
+import jwt from "jsonwebtoken";
+
+export const isLoggedIn = (req, res, next)=>{
+    const token = req?.headers?.authorization?.split(" ")[1];
+
+    if(!token){
+        return res.status(400).send({
+            message: "Token not found",
+        });
+    }
+
+    const decryptedToken = jwt.verify(token, "secretKey");
+}
