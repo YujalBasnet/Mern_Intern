@@ -10,6 +10,7 @@ export const isLoggedIn = (req, res, next)=>{
     }
 
     const decryptedToken = jwt.verify(token, "secretKey");
+    req.user = decryptedToken;
 
     req.userRole = 
     decryptedToken.userRole === "admin" ?
