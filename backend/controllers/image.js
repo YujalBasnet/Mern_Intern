@@ -8,7 +8,9 @@ export const uploadImage =(req, res) => {
 
     database.query(q, [req.user.id, path], (err, data) => {
         if (err){
-            return res.send({message: "Error while uploading image", error: err,});
+            return res.send({
+            message: "Error while uploading image",
+            error: err,});
         }
         return res.send({message: "Image uploaded successfully", data: data});
     });
