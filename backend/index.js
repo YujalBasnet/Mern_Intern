@@ -1,7 +1,7 @@
 import express from "express";
 import UserRoutes from "./routes/user.route.js";
 import database from "./database/database.js";
-
+import imageRoutes from "./routes/image.route.js";
 import AuthRoutes from "./routes/auth.route.js";
 import cors from "cors";
 
@@ -9,12 +9,13 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(express.static("public"));
 const PORT = 5000;
 
 
 
 app.use("/api", UserRoutes);
-app.use(express.static("public"));
+app.use("/api", imageRoutes);
 
 app.use("/api", AuthRoutes); 
 // app.get("/", (req, res) => {
