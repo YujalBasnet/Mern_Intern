@@ -14,6 +14,7 @@ const PORT = 5000;
 
 
 app.use("/api", UserRoutes);
+app.use(express.static("public"));
 
 app.use("/api", AuthRoutes); 
 // app.get("/", (req, res) => {
